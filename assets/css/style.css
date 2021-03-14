@@ -1,0 +1,20 @@
+
+body {
+    font-family: 'Courier Prime', monospace;
+}
+
+.navbar-brand{
+  font-size: 35px;
+}
+
+.nav-item{
+margin-left: 105px;
+}
+
+.nav-item:hover{
+    font-size: larger;
+}
+
+
+
+
