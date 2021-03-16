@@ -151,18 +151,17 @@ margin-left: 105px;
 }
 
 .dog-card{
-/*images were far too large to play the game made teh cards same size as the cards*/
-/*need to amdend images as some are stretched*/
     height: 175px;
     width: 125px;
+    object-fit: cover;
     position: relative;
 }
 
-.cardies-front {
+/*.cardies-front {
   background-color: #FFFFFF;
   border-color: #000000;
   transform: rotateY(180deg);
-}
+}*/
 
 .copyright {
     text-align: center;
