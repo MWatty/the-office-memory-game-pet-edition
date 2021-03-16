@@ -118,11 +118,36 @@ in the user experience. The aim of the images use in the game was fun.
 
 ## Technologies Used 
 
+* [HTML5](https://www.graycelltech.com/why-use-html-5/) was used as this is the latest Hypertext Markup Language and this is the standard language for describing the contents and appearance of Web Pages.
+  All major browsers offer HTML5 support. 
+
+* [CSS](https://www.w3schools.com/css/css_intro.asp) is used to define styles for web pages, including the design, layout and variations in display for different devices and screen sizes.
+
+* [Bootstrap](https://getbootstrap.com/) was used as this lends itself to quickly design and customize mobile first-sites.
+
+* [Google-Fonts](https://fonts.google.com/) were used to style the website fonts and ensure they complimented each other.
+
+* [Gitpod](https://gitpod.io) was used as this is an open source platform for automated and ready to code development environments that blends into your existing workflow.
+
+* [GitHub](https://github.com) was used as a hosting platform for version control.
+
+* [Pixlr](https://pixlr.com/) was used to resize the images for optimum size for web use (max 798 x 1280).
+
+* [TinyJPG](https://tinyjpg.com/) was used to compress the image files.
+
 ## Testing 
 
 ### Devices 
 
 ### Features Tested 
+
+* Issues identified on the landing page on some of the smallest devices, box with buttons 
+overlapping on the navigation bar. Media Query created for devices max width 320px and 380px.
+
+* Photographs of some of the dogs on cards when tested were stretched, used researched 
+and used object-fit cover to fix the issues. 
+
+
 
 ### Third Party Services 
 
@@ -134,8 +159,26 @@ in the user experience. The aim of the images use in the game was fun.
 
 ### Media 
 
-* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+* Photo by <a href="https://unsplash.com/@kaleidico?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kaleidico</a> on <a href="/s/photos/meeting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+* Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 
-* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+* Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 
+* Photo by <a href="https://unsplash.com/@barkernotbaker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Barker</a> on <a href="/s/photos/dogs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+* Photo by <a href="https://unsplash.com/@_thedl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Lezcano</a> on <a href="/s/photos/dogs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+* Photo by <a href="https://unsplash.com/@jamie452?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jamie Street</a> on <a href="/s/photos/dogs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+* Photo by <a href="https://unsplash.com/@kierancwhite?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kieran White</a> on <a href="/s/photos/dogs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+* Photo by <a href="https://unsplash.com/@pupscruffs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Bernotsky</a> on <a href="/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+* Photo by <a href="https://unsplash.com/@viktortalashuk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Viktor Talashuk</a> on <a href="/s/photos/white-dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+* Photo by <a href="https://unsplash.com/@dimhou?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dimitri Houtteman</a> on <a href="/s/photos/pug?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+* Photo by <a href="https://unsplash.com/@vittrupfoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Isabel Vittrup-Pallier</a> on <a href="/s/photos/dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 ### Acknowledgements 
