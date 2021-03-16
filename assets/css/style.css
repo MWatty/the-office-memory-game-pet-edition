@@ -96,6 +96,7 @@ margin-left: 105px;
     grid-gap: 10px;
     margin: 50px auto;
     justify-content: center;
+    perspective: 500px;
 }
 
 .cards {
@@ -116,18 +117,16 @@ margin-left: 105px;
   border-style: solid;
   overflow: hidden;
   backface-visibility: hidden;
+  transition: transform 600ms ease-in-out;
 }
 
-.cards.visible .cardies-back {
+.cards:hover .cardies-back {
+    /*cards flipping needs to be amended to onclick*/
   transform: rotateY(-180deg); 
 }
 
-.cards.visible .cardies-front {
+.cards:hover .cardies-front {
   transform: rotateY(0); 
-}
-
-.cards.matched .cardies-front .dog-card {
-  animation: dance 1s linear infinite 500ms;
 }
 
 .cardies-back {
@@ -151,17 +150,16 @@ margin-left: 105px;
 }
 
 .dog-card{
-    height: 175px;
+    height: 155px;
     width: 125px;
     object-fit: cover;
-    position: relative;
 }
 
-/*.cardies-front {
+.cardies-front {
   background-color: #FFFFFF;
   border-color: #000000;
   transform: rotateY(180deg);
-}*/
+}
 
 .copyright {
     text-align: center;
