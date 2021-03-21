@@ -185,7 +185,7 @@ margin-left: 105px;
 
 /*https://github.com/WebDevSimplified/Mix-Or-Match*/
 /* amendments to be made so that this only covers the container*/
-.game-play-text{
+.gameplay-text{
     position: fixed;
     width: 100%;
     height: 100%;
@@ -196,13 +196,13 @@ margin-left: 105px;
     color: #7FFF00;
 }
 
-.game-play-text.visible{
+.gameplay-text.visible{
     display: flex;
     animation: game-play-grow 500ms forwards;
     flex-direction: column;
 }
 
-.game-play-text-small{
+.gameplay-text-small{
     font-size: 40px;
 }
 
