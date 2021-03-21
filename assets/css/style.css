@@ -121,12 +121,11 @@ margin-left: 105px;
   transition: transform 600ms ease-in-out;
 }
 
-.cards:hover .cardies-back {
-    /*cards flipping needs to be amended to onclick*/
+.cards.visible .cardies-back {
   transform: rotateY(-180deg); 
 }
 
-.cards:hover .cardies-front {
+.cards.visible .cardies-front {
   transform: rotateY(0); 
 }
 
