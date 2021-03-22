@@ -137,6 +137,14 @@ in the user experience. The aim of the images use in the game was fun.
 
 ## Testing 
 
+* No spacing bwtween the word flips and the flip counter on the game.html page, amended and working much better 
+
+* Audio for card fliping is not adequate the sound is too slow and only makes a sound for every second card. This needs 
+to be changed. 
+
+* Need to get advice on the click to play do not like the way it moves. 
+
+
 ### Devices 
 
 ### Features Tested 
