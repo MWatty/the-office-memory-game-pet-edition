@@ -34,7 +34,7 @@ class theOffice {
         this.timeRemaining = this.totalTime;
         this.matchedCard = [];
         this.busy = true;
-       
+        this.shuffleCards();
     }
     flipCards(cards){
         if(this.canflipCards(cards)) {
@@ -42,6 +42,16 @@ class theOffice {
             this.totalClicks++;
             this.counter.innerText = this.totalClicks;
             cards.classList.add('visible');
+        }
+    }
+
+//Fisher Yates shuffle algorothim https://medium.com/@oldwestaction/randomness-is-hard-e085decbcbb2
+
+    shuffleCards(){
+        for(let i = this.cardArray.length -1; i > 0; i--){
+            let randomInt = Math.floor(Math.random() * (i+1));
+            this.cardArray[randomInt].style.order = i;
+            this.cardArray[i].style.order = randomInt;
         }
     }
 

@@ -167,6 +167,10 @@ and used object-fit cover to fix the issues.
 
 * https://github.com/WebDevSimplified/Mix-Or-Match
 
+* https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
+
+* https://medium.com/@oldwestaction/randomness-is-hard-e085decbcbb2
+
 ### Media 
 
 * Photo by <a href="https://unsplash.com/@kaleidico?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kaleidico</a> on <a href="/s/photos/meeting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
