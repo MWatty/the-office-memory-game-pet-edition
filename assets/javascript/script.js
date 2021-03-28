@@ -41,19 +41,13 @@ class theOffice {
         this.timer = this.startTimer();
         this.busy = false;
     }, 500);
-        
+        this.turnCardBack();
+        this.countDown.innerText = this.timeRemaining;
+        this.counter.innerText = this.totalClicks;
 }
 
 
 
-    flipCards(cards){
-        if(this.canflipCards(cards)) {
-            this.officeAudio.flip();
-            this.totalClicks++;
-            this.counter.innerText = this.totalClicks;
-            cards.classList.add('visible');
-        }
-    }
 
     startTimer() {
         return setInterval(() => {
@@ -63,11 +57,27 @@ class theOffice {
         this.gameOver();
         }, 1000);
     }
+    
+    flipCards(cards){
+        if(this.canflipCards(cards)) {
+            this.officeAudio.flip();
+            this.totalClicks++;
+            this.counter.innerText = this.totalClicks;
+            cards.classList.add('visible');
+        }
+    }
 
+   
 gameOver() {
    clearInterval(this.timer);
     document.getElementById('game-over-text').classList.add('visible');
 }
+
+  turnCardBack(){
+        this.cardArray.forEach(cards => {
+        cards.classList.remove('visible');
+    });
+    }
 
 //Fisher Yates shuffle algorothim https://medium.com/@oldwestaction/randomness-is-hard-e085decbcbb2
 
