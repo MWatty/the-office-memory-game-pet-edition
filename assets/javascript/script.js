@@ -24,18 +24,28 @@ class theOffice {
         this.cardArray = card;
         this.totalTime = totalTime;
         this.timeRemaining = totalTime;
-        this.countdown = document.getElementById('time-left');
+        this.countDown = document.getElementById('time-left');
         this.counter = document.getElementById('flips');
         this.officeAudio = new officeAudio();
     }
+
+
     startGame() {
         this.cardsToCheck = null;
         this.totalClicks = 0;
         this.timeRemaining = this.totalTime;
         this.matchedCard = [];
         this.busy = true;
+        setTimeout(() => {
         this.shuffleCards();
-    }
+        this.timer = this.startTimer();
+        this.busy = false;
+    }, 500);
+        
+}
+
+
+
     flipCards(cards){
         if(this.canflipCards(cards)) {
             this.officeAudio.flip();
@@ -44,6 +54,20 @@ class theOffice {
             cards.classList.add('visible');
         }
     }
+
+    startTimer() {
+        return setInterval(() => {
+        this.timeRemaining--;
+        this.countDown.innerText = this.timeRemaining;
+        if(this.timeRemaining === 0)
+        this.gameOver();
+        }, 1000);
+    }
+
+gameOver() {
+   clearInterval(this.timer);
+    document.getElementById('game-over-text').classList.add('visible');
+}
 
 //Fisher Yates shuffle algorothim https://medium.com/@oldwestaction/randomness-is-hard-e085decbcbb2
 
@@ -65,7 +89,7 @@ class theOffice {
 function ready() {
     let gametext = Array.from(document.getElementsByClassName('gameplay-text'));
     let card = Array.from(document.getElementsByClassName('cards'));
-    let game = new theOffice(60, card);
+    let game = new theOffice(7, card);
 
 
     gametext.forEach(gameplay => {
