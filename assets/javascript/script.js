@@ -62,9 +62,19 @@ class theOffice {
             this.totalClicks++;
             this.counter.innerText = this.totalClicks;
             cards.classList.add('visible');
+                        
+            if(this.cardsToCheck) 
+            this.areCardsMatched(cards);
+             else 
+            this.cardsToCheck = cards;
         }
     }
 
+    areCardsMatched(){
+
+    }
+
+    
    
 gameOver() {
    clearInterval(this.timer);
@@ -78,9 +88,9 @@ winner(){
     document.getElementById('winner-text').classList.add('visible');
 }
 
-  turnCardBack(){
-        this.cardArray.forEach(cards => {
-        cards.classList.remove('visible');
+turnCardBack(){
+    this.cardArray.forEach(cards => {
+    cards.classList.remove('visible');
     });
     }
 
@@ -95,6 +105,7 @@ winner(){
     }
 
     canflipCards(cards){
+        //NOTE will need to amend when the user cannot flip a card
         return true;
     }
 }
@@ -104,7 +115,7 @@ winner(){
 function ready() {
     let gametext = Array.from(document.getElementsByClassName('gameplay-text'));
     let card = Array.from(document.getElementsByClassName('cards'));
-    let game = new theOffice(5, card);
+    let game = new theOffice(60, card);
 
 
     gametext.forEach(gameplay => {
