@@ -70,12 +70,25 @@ class theOffice {
         }
     }
 
-    areCardsMatched(){
+    areCardsMatched(cards){
+     if(this.whatTypeCard(cards) === this.whatTypeCard(this.cardsToCheck))
+     this.cardsMatched(cards, this.cardsToCheck);
+     else
+     this.cardsNoMatch(cards, this.cardsToCheck);
+    }
+
+    whatTypeCard(cards){
+        return cards.getElementsByClassName('dog-card')[0].src;
+    }
+
+    cardsMatched(){
 
     }
 
-    
-   
+    cardsNoMatch(){
+
+    }
+
 gameOver() {
    clearInterval(this.timer);
    this.officeAudio.lose();
