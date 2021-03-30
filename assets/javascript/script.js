@@ -77,6 +77,8 @@ class theOffice {
      this.cardsMatched(cards, this.cardsToCheck);
      else
      this.cardsNoMatch(cards, this.cardsToCheck);
+
+     this.cardsToCheck = null;
     }
 
     whatTypeCard(cards){
@@ -89,7 +91,6 @@ class theOffice {
         this.officeAudio.match();
         if(this.matchedCard.length === this.cardArray.length)
         this.winner();
-        //why is there only a sound on one card match the first one that is matched 
     }
 
 
@@ -131,9 +132,8 @@ turnCardBack(){
         }
     }
 
-        canflipCards(cards){
-            //NOTE will need to amend when the user cannot flip a card
-            return true;
+    canflipCards(cards){
+        return !this.busy && !this.matchedCard.includes(cards) && cards !== this.cardsToCheck;
     }
 }
 
