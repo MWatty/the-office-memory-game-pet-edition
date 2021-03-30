@@ -70,6 +70,7 @@ class theOffice {
    
 gameOver() {
    clearInterval(this.timer);
+   this.officeAudio.lose();
     document.getElementById('game-over-text').classList.add('visible');
 }
 
