@@ -6,12 +6,14 @@ class officeAudio {
         this.loseSound = new Audio('assets/audio/lose.wav');
     }
     flip(){
+        //need to change this sound its too slow for the game 
         this.flipSound.play();
     }
     match(){
         this.matchSound.play();
     }
     win(){
+        //need to change this sounds its too long 
         this.winSound.play();
     }
     lose(){
@@ -87,12 +89,19 @@ class theOffice {
         this.officeAudio.match();
         if(this.matchedCard.length === this.cardArray.length)
         this.winner();
+        //why is there only a sound on one card match the first one that is matched 
     }
 
 
-    cardsNoMatch(){
+    cardsNoMatch(cards1, cards2){
+      this.busy = true;
+      setTimeout(() => {
+          cards1.classList.remove('visible');
+          cards2.classList.remove('visible');
+          this.busy = false;      
+    } ,1000);
+}
 
-    }
 
 gameOver() {
    clearInterval(this.timer);
@@ -122,12 +131,11 @@ turnCardBack(){
         }
     }
 
-    canflipCards(cards){
-        //NOTE will need to amend when the user cannot flip a card
-        return true;
+        canflipCards(cards){
+            //NOTE will need to amend when the user cannot flip a card
+            return true;
     }
 }
-
 
 
 function ready() {
