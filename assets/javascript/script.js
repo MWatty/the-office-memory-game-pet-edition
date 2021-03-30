@@ -81,9 +81,14 @@ class theOffice {
         return cards.getElementsByClassName('dog-card')[0].src;
     }
 
-    cardsMatched(){
-
+    cardsMatched(cards1, cards2){
+        this.matchedCard.push(cards1);
+        this.matchedCard.push(cards2);
+        this.officeAudio.match();
+        if(this.matchedCard.length === this.cardArray.length)
+        this.winner();
     }
+
 
     cardsNoMatch(){
 
