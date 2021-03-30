@@ -47,8 +47,6 @@ class theOffice {
 }
 
 
-
-
     startTimer() {
         return setInterval(() => {
         this.timeRemaining--;
@@ -72,6 +70,12 @@ gameOver() {
    clearInterval(this.timer);
    this.officeAudio.lose();
     document.getElementById('game-over-text').classList.add('visible');
+}
+
+winner(){
+    clearInterval(this.timer);
+    this.officeAudio.win();
+    document.getElementById('winner-text').classList.add('visible');
 }
 
   turnCardBack(){
@@ -100,7 +104,7 @@ gameOver() {
 function ready() {
     let gametext = Array.from(document.getElementsByClassName('gameplay-text'));
     let card = Array.from(document.getElementsByClassName('cards'));
-    let game = new theOffice(7, card);
+    let game = new theOffice(5, card);
 
 
     gametext.forEach(gameplay => {
