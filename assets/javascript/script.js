@@ -1,4 +1,4 @@
-class officeAudio {
+class OfficeAudio {
     constructor(){
         this.flipSound = new Audio('assets/audio/flip.wav');
         this.matchSound = new Audio('assets/audio/win.wav');
@@ -21,14 +21,14 @@ class officeAudio {
     }
 }
 
-class theOffice {
+class TheOffice {
     constructor(totalTime, card) {
         this.cardArray = card;
         this.totalTime = totalTime;
         this.timeRemaining = totalTime;
         this.countDown = document.getElementById('time-left');
         this.counter = document.getElementById('flips');
-        this.officeAudio = new officeAudio();
+        this.OfficeAudio = new OfficeAudio();
     }
 
 
@@ -60,7 +60,7 @@ class theOffice {
     
     flipCards(cards){
         if(this.canflipCards(cards)) {
-            this.officeAudio.flip();
+            this.OfficeAudio.flip();
             this.totalClicks++;
             this.counter.innerText = this.totalClicks;
             cards.classList.add('visible');
@@ -88,7 +88,7 @@ class theOffice {
     cardsMatched(cards1, cards2){
         this.matchedCard.push(cards1);
         this.matchedCard.push(cards2);
-        this.officeAudio.match();
+        this.OfficeAudio.match();
         if(this.matchedCard.length === this.cardArray.length)
         this.winner();
     }
@@ -106,13 +106,13 @@ class theOffice {
 
 gameOver() {
    clearInterval(this.timer);
-   this.officeAudio.lose();
+   this.OfficeAudio.lose();
     document.getElementById('game-over-text').classList.add('visible');
 }
 
 winner(){
     clearInterval(this.timer);
-    this.officeAudio.win();
+    this.OfficeAudio.win();
     document.getElementById('winner-text').classList.add('visible');
 }
 
@@ -141,7 +141,7 @@ turnCardBack(){
 function ready() {
     let gametext = Array.from(document.getElementsByClassName('gameplay-text'));
     let card = Array.from(document.getElementsByClassName('cards'));
-    let game = new theOffice(60, card);
+    let game = new TheOffice(60, card);
 
 
     gametext.forEach(gameplay => {

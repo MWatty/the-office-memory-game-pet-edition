@@ -171,6 +171,8 @@ and used object-fit cover to fix the issues.
 
 * https://medium.com/@oldwestaction/randomness-is-hard-e085decbcbb2
 
+* https://www.robinwieruch.de/javascript-naming-conventions 
+
 ### Media 
 
 * Photo by <a href="https://unsplash.com/@kaleidico?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kaleidico</a> on <a href="/s/photos/meeting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
