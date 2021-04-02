@@ -17,181 +17,176 @@
     <title>the office pet edition</title>
 </head>
 <body class="game-body">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">the office</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link" href="game.html">new game<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">contact</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">the office</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="game.html">new game<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">contact</a>
+            </div>
+        </div>
+    </nav>
+    <!--https://github.com/WebDevSimplified/Mix-Or-Match-->
+    <div class="gameplay-text visible">
+        CLICK TO PLAY
+    </div>
+    <div id="game-over-text" class="gameplay-text">
+        UNLUCKY YOU LOST!
+        <span class="gameplay-text-small">Click to play again</span>
+    </div>
+    <div id="winner-text" class="gameplay-text">
+        YOU WON!
+        <span class="gameplay-text-small">Click to play again</span>
+    </div>
+    <div class="cardgame-container">
+        <div class="cardgame-info-container">
+            <div class="cardgame-info">
+                timer: <span id="time-left"> 60</span>
+            </div>
+            <div class="cardgame-info">
+                flips: <span id="flips"> 0</span>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-paw"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog1.jpeg" alt="image of dog1">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-black-tie"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog1.jpeg" alt="image of dog1">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-paw"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog2.jpeg" alt="image of dog1">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-black-tie"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog2.jpeg" alt="image of dog1">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-paw"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog3.jpeg" alt="image of dog1">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-black-tie"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog3.jpeg" alt="image of dog1">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-paw"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog4.jpeg" alt="image of dog1">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-black-tie"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog4.jpeg" alt="image of dog1">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-paw"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog5.jpeg" alt="image of dog1">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-black-tie"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog5.jpeg" alt="image of dog1">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-paw"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog6.jpeg" alt="image of dog1">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-black-tie"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog6.jpeg" alt="image of dog1">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-paw"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog7.jpeg" alt="image of dog1">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-black-tie"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog7.jpeg" alt="image of dog1">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-paw"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog8.jpeg" alt="image of dog1">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="cardies-back card-face">
+                <i class="fa fa-black-tie"></i>
+            </div>
+            <div class="cardies-front card-face">
+                <img class="dog-card" src="assets/images/dog8.jpeg" alt="image of dog1">
+            </div>
         </div>
     </div>
-</nav>
-
-<!--https://github.com/WebDevSimplified/Mix-Or-Match--> 
-<div class="gameplay-text visible">
-    CLICK TO PLAY
-</div>
-<div id="game-over-text" class="gameplay-text">
-    UNLUCKY YOU LOST!
-    <span class="gameplay-text-small">Click to play again</span>
-</div>
-<div id="winner-text" class="gameplay-text">
-    YOU WON!
-    <span class="gameplay-text-small">Click to play again</span>
-</div>
-
-
-
-<div class="cardgame-container">
-    <div class="cardgame-info-container">
-        <div class="cardgame-info">
-            timer: <span id="time-left"> 60</span>
+    <section class="container-fluid container-footer bg-light">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <p class="copyright">&#169; maura's office 2021</p>
+            </div>
         </div>
-        <div class="cardgame-info">
-            flips: <span id="flips"> 0</span>
-        </div>
-    </div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-paw"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog1.jpeg" alt="image of dog1">
-    </div>
-</div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-black-tie"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog1.jpeg" alt="image of dog1">
-    </div>
-</div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-paw"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog2.jpeg" alt="image of dog1">
-    </div>
-</div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-black-tie"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog2.jpeg" alt="image of dog1">
-    </div>
-</div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-paw"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog3.jpeg" alt="image of dog1">
-    </div>
-</div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-black-tie"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog3.jpeg" alt="image of dog1">
-    </div>
-</div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-paw"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog4.jpeg" alt="image of dog1">
-    </div>
-</div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-black-tie"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog4.jpeg" alt="image of dog1">
-    </div>
-</div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-paw"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog5.jpeg" alt="image of dog1">
-    </div>
-</div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-black-tie"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog5.jpeg" alt="image of dog1">
-    </div>
-</div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-paw"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog6.jpeg" alt="image of dog1">
-    </div>
-</div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-black-tie"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog6.jpeg" alt="image of dog1">
-    </div>
-</div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-paw"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog7.jpeg" alt="image of dog1">
-    </div>
-</div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-black-tie"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog7.jpeg" alt="image of dog1">
-    </div>
-</div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-paw"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog8.jpeg" alt="image of dog1">
-    </div>
-</div>
-<div class="cards">
-    <div class="cardies-back card-face">
-        <i class="fa fa-black-tie"></i>
-    </div>
-    <div class="cardies-front card-face">
-        <img class="dog-card" src="assets/images/dog8.jpeg" alt="image of dog1">
-    </div>
-</div>
-</div>
-<section class="container-fluid container-footer bg-light">
-    <div class="row">
-        <div class="col-md-8 offset-md-2">
-            <p class="copyright">&#169; maura's office 2021</p>
-        </div>
-    </div>
-</section>
-    
+    </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
