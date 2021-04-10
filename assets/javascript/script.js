@@ -57,6 +57,9 @@ class TheOffice {
         }, 1000);
     }
 
+    //create a function to pause the game 
+    //create a function to reset the game 
+
     
     flipCards(cards){
         if(this.canflipCards(cards)) {
@@ -84,7 +87,7 @@ class TheOffice {
 areCardsMatched(cards) {
 if (this.whatTypeCard(cards) === this.whatTypeCard(this.cardsToCheck)) {
 this.cardsMatched(cards, this.cardsToCheck);
-this.cardsToCheck = null;
+//this.cardsToCheck = null;
 }
 else {
 this.cardsNoMatch(cards, this.cardsToCheck);
@@ -153,7 +156,7 @@ turnCardBack(){
 function ready() {
     let gametext = Array.from(document.getElementsByClassName('gameplay-text'));
     let card = Array.from(document.getElementsByClassName('cards'));
-    let timeAllowed = 60;
+    const timeAllowed = 60;
     let game = new TheOffice(timeAllowed, card);
 
 
