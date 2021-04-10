@@ -8,10 +8,6 @@ body, html {
   cursor: pointer;
 }
 
-/*html{
-    cursor: pointer;
-}*/
-
 body {
     font-family: 'Courier Prime', monospace;
 }
@@ -176,7 +172,7 @@ margin-left: 105px;
 
 /* https://github.com/WebDevSimplified/Mix-Or-Match/blob/master/styles.css*/
 /*--------------- Media Queries--------------------*/
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   .cardgame-container {
     grid-template-columns: repeat(2, auto)
   }
@@ -185,6 +181,31 @@ margin-left: 105px;
     flex-direction: column;
     align-items: center;
   }
+}*/
+
+@media (max-width: 640px){
+    .cards {
+        position: relative;
+  height: 70px;
+  width: 50px;
+    }
+.cardgame-info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+.fa{
+    font-size: 25px;
+    position: relative;
+}
+.card-face:hover .fa{
+    font-size: 35px;
+    color: #7FFF00;
+}
+.dog-card{
+    height: 70px;
+    width: 50px;
+    object-fit: cover;
+}
 }
 
 /*https://github.com/WebDevSimplified/Mix-Or-Match*/
