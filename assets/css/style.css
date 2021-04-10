@@ -170,24 +170,12 @@ margin-left: 105px;
     margin-bottom: 20px;
 }
 
-/* https://github.com/WebDevSimplified/Mix-Or-Match/blob/master/styles.css*/
-/*--------------- Media Queries--------------------*/
-/*@media (max-width: 600px) {
-  .cardgame-container {
-    grid-template-columns: repeat(2, auto)
-  }
-
-  .cardgame-info-container {
-    flex-direction: column;
-    align-items: center;
-  }
-}*/
 
 @media (max-width: 640px){
     .cards {
-        position: relative;
-  height: 70px;
-  width: 50px;
+    position: relative;
+    height: 70px;
+    width: 50px;
     }
 .cardgame-info-container {
     flex-direction: column;
