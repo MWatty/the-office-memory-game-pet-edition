@@ -6,7 +6,6 @@ class OfficeAudio {
         this.loseSound = new Audio('assets/audio/lose.wav');
     }
     flip(){
-        //need to change this sound its too slow for the game 
         this.flipSound.play();
     }
     match(){
@@ -65,21 +64,22 @@ class TheOffice {
             this.counter.innerText = this.totalClicks;
             cards.classList.add('visible');
                         
-            if(this.cardsToCheck) 
+            if(this.cardsToCheck) {
             this.areCardsMatched(cards);
-             else 
+            } else {
             this.cardsToCheck = cards;
         }
     }
+}
 
     areCardsMatched(cards){
-     if(this.whatTypeCard(cards) === this.whatTypeCard(this.cardsToCheck))
+     if(this.whatTypeCard(cards) === this.whatTypeCard(this.cardsToCheck)){
      this.cardsMatched(cards, this.cardsToCheck);
-     else
+     } else {
      this.cardsNoMatch(cards, this.cardsToCheck);
-
      this.cardsToCheck = null;
     }
+}
 
     whatTypeCard(cards){
         return cards.getElementsByClassName('dog-card')[0].src;
