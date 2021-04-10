@@ -44,7 +44,7 @@ class TheOffice {
         this.busy = false;
     }, 500);
         this.turnCardBack();
-        this.countDown.innerText = this.timeRemaining;
+       // this.countDown.innerText = this.timeRemaining;
         this.counter.innerText = this.totalClicks;
 }
 
