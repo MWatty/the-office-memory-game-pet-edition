@@ -43,7 +43,7 @@ class TheOffice {
         this.busy = false;
     }, 500);
         this.turnCardBack();
-       // this.countDown.innerText = this.timeRemaining;
+       this.countDown.innerText = this.timeRemaining;
         this.counter.innerText = this.totalClicks;
 }
 
@@ -56,6 +56,7 @@ class TheOffice {
         this.gameOver();
         }, 1000);
     }
+
     
     flipCards(cards){
         if(this.canflipCards(cards)) {
@@ -70,16 +71,28 @@ class TheOffice {
             this.cardsToCheck = cards;
         }
     }
+    }
+
+    //areCardsMatched(cards){
+     //if(this.whatTypeCard(cards) === this.whatTypeCard(this.cardsToCheck)) 
+    // this.cardsMatched(cards, this.cardsToCheck);
+    //  else 
+    // this.cardsNoMatch(cards, this.cardsToCheck);
+    // this.cardsToCheck = null;
+    //}
+
+areCardsMatched(cards) {
+if (this.whatTypeCard(cards) === this.whatTypeCard(this.cardsToCheck)) {
+this.cardsMatched(cards, this.cardsToCheck);
+this.cardsToCheck = null;
+}
+else {
+this.cardsNoMatch(cards, this.cardsToCheck);
+this.cardsToCheck = null;
+}
 }
 
-    areCardsMatched(cards){
-     if(this.whatTypeCard(cards) === this.whatTypeCard(this.cardsToCheck)){
-     this.cardsMatched(cards, this.cardsToCheck);
-     } else {
-     this.cardsNoMatch(cards, this.cardsToCheck);
-     this.cardsToCheck = null;
-    }
-}
+    
 
     whatTypeCard(cards){
         return cards.getElementsByClassName('dog-card')[0].src;
@@ -123,7 +136,6 @@ turnCardBack(){
     }
 
 //Fisher Yates shuffle algorothim https://medium.com/@oldwestaction/randomness-is-hard-e085decbcbb2
-
     shuffleCards(){
         for(let i = this.cardArray.length -1; i > 0; i--){
             let randomInt = Math.floor(Math.random() * (i+1));
@@ -141,7 +153,8 @@ turnCardBack(){
 function ready() {
     let gametext = Array.from(document.getElementsByClassName('gameplay-text'));
     let card = Array.from(document.getElementsByClassName('cards'));
-    let game = new TheOffice(60, card);
+    let timeAllowed = 60;
+    let game = new TheOffice(timeAllowed, card);
 
 
     gametext.forEach(gameplay => {
