@@ -8,7 +8,7 @@ a dollop of competition.
 
 ## Demo 
 
-A live demo can be found [here]
+A live demo can be found [here](https://mwatty.github.io/the-office-memory-game-pet-edition/)
 
 ## UX 
 
@@ -160,6 +160,27 @@ and used object-fit cover to fix the issues.
 ### Third Party Services 
 
 ## Deployment 
+
+### Deployed on GitHub Pages using Master Branch
+
+1. Log into [GitHub](https://github.com/).
+2. Click on the relevant [Repository - The Office Memory Game Pet Edition](https://github.com/MWatty/the-office-memory-game-pet-edition)
+3. Click on settings option along the options bar.
+4. Locate GitHub Pages options towards the bottom of the page.
+5. Click on Check it out here!
+6. In 'Source' dropdown, select 'Master' from the branch options. 
+7. Click the save button.
+
+### Cloning Project 
+
+1. Log into [GitHub](https://github.com/).
+2. Locate the relevant [Repository - The Office Memory Game Pet Edition](https://github.com/MWatty/the-office-memory-game-pet-edition)
+3. Under the Repository name click "clone or download".
+4. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+5. Open Git Bash.
+6. Change the current working directory to the location where you want the cloned directory to be made.
+7. Type git clone, and then paste the URL you copied in Step 3.
+8. Click Enter and your local clone will be created.
 
 ## Credits 
 
