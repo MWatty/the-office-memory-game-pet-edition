@@ -122,6 +122,13 @@ in the user experience. The aim of the images use in the game was fun.
 
 ### Features left to implement 
 
+* Cookies Banner pop up - this should be added to ensure complaince with legislation relating to personal data and how that data is managed.
+
+* Levels - varying levels of difficulty would be addded to the game to enhance the user experience. 
+
+* Leaderboard - a leaderbord would be added to enhance the competitiveness of the game and allow for a more enhanced interactive user experience. 
+
+
 ## Technologies Used 
 
 * [HTML5](https://www.graycelltech.com/why-use-html-5/) was used as this is the latest Hypertext Markup Language and this is the standard language for describing the contents and appearance of Web Pages.
