@@ -81,6 +81,10 @@ All wireframes were created using [Balsamiq](http://balsamiq.com)
 
 Please find full PDF versions of wireframes and sketches below :
 
+* [Mobile Wireframe](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/wireframes/Wireframe%20-%20Mobile.pdf)
+* [Tablet Wireframe](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/wireframes/Wireframe%20-%20Tablet.pdf)
+* [Desktop Wireframe](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/wireframes/Wireframe%20-%20Desktop.pdf)
+
 ### Surface 
 
 #### Design 
