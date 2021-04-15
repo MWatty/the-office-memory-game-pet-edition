@@ -157,10 +157,13 @@ to be changed.
 
 * Need to get advice on the click to play do not like the way it moves. 
 
-
+* Amended the icons on the card backs to all be paws as when shuffling the cards the matches were ties and paws. 
 
 
 ### Devices 
+
+* Iphone 11 
+* Honor 10 
 
 ### Features Tested 
 
@@ -169,7 +172,6 @@ overlapping on the navigation bar. Media Query created for devices max width 320
 
 * Photographs of some of the dogs on cards when tested were stretched, used researched 
 and used object-fit cover to fix the issues. 
-
 
 
 ### Third Party Services 
