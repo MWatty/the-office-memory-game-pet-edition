@@ -150,6 +150,16 @@ in the user experience. The aim of the images use in the game was fun.
 
 ## Testing 
 
+### Testing User Stories from User Experience (UX) Section
+
+   1. As a First Time Visitor, I 
+
+        1.  
+        2. 
+        3. 
+
+
+
 * No spacing bwtween the word flips and the flip counter on the game.html page, amended and working much better 
 
 * Audio for card fliping is not adequate the sound is too slow and only makes a sound for every second card. This needs 
@@ -161,6 +171,8 @@ to be changed.
 
 
 ### Devices 
+
+Tested the game funcitonality on both of the phones listed below: 
 
 * Iphone 11 
 * Honor 10 
@@ -188,6 +200,14 @@ and used object-fit cover to fix the issues.
 6. In 'Source' dropdown, select 'Master' from the branch options. 
 7. Click the save button.
 
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [Repository - The Office Memory Game Pet Edition ](https://github.com/MWatty/the-office-memory-game-pet-edition)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
 ### Cloning Project 
 
 1. Log into [GitHub](https://github.com/).
@@ -197,7 +217,23 @@ and used object-fit cover to fix the issues.
 5. Open Git Bash.
 6. Change the current working directory to the location where you want the cloned directory to be made.
 7. Type git clone, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
 8. Click Enter and your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits 
 
@@ -211,6 +247,8 @@ and used object-fit cover to fix the issues.
 
 * https://www.robinwieruch.de/javascript-naming-conventions 
 
+* This template was used to assist in the creation of the [Deployment Section](https://raw.githubusercontent.com/Code-Institute-Solutions/SampleREADME/master/README.md)
+ 
 ### Media 
 
 * Photo by <a href="https://unsplash.com/@kaleidico?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kaleidico</a> on <a href="/s/photos/meeting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
