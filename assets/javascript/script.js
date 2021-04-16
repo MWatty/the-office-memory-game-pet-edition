@@ -12,6 +12,7 @@ class OfficeAudio {
     }
     match() {
         this.matchSound.play();
+        //potentially change this sound 
     }
     win() {
         this.winSound.play();
@@ -32,7 +33,6 @@ class TheOffice {
         this.OfficeAudio = new OfficeAudio();//Office Audio that belongs to this particular game object 
     }
 
-
     startGame() {
         this.cardsToCheck = null;//when you first start game no cards to check as no cards flipped, when you flip one it becomes cardToCheck
         this.totalClicks = 0;//each time a new game is started flip counter is equal to 0
@@ -49,7 +49,7 @@ class TheOffice {
         this.counter.innerText = this.totalClicks;//resetting counter when starting a new game 
     }
 
-//create a countdown timer counts down by one second, updates value of timer on HTML page, if time remaining equals zero calls game over function
+    //create a countdown timer counts down by one second, updates value of timer on HTML page, if time remaining equals zero calls game over function
     startTimer() {
         return setInterval(() => {
             this.timeRemaining--;
@@ -62,8 +62,29 @@ class TheOffice {
     //create a function to pause the game 
     //create a function to reset the game 
 
-//if user can flips the card, adds sound, iterates flips, updates value of counter,flips card
-//if statement then checks are we trying to match a card or flipping for first time  
+    //timer is cleared, plays audio, gameover text pops up
+    gameOver() {
+        clearInterval(this.timer);
+        this.OfficeAudio.lose();
+        document.getElementById('game-over-text').classList.add('visible');
+    }
+
+    //stops counting down, plays audio, winning text pops up 
+    winner() {
+        clearInterval(this.timer);
+        this.OfficeAudio.win();
+        document.getElementById('winner-text').classList.add('visible');
+    }
+
+    //loops through cards array and removes visible class 
+    turnCardBack() {
+        this.cardArray.forEach(cards => {
+            cards.classList.remove('visible');
+        });
+    }
+
+    //if user can flips the card, adds sound, iterates flips, updates value of counter,flips card
+    //if statement then checks are we trying to match a card or flipping for first time  
     flipCards(cards) {
         if (this.canflipCards(cards)) {
             this.OfficeAudio.flip();
@@ -79,8 +100,8 @@ class TheOffice {
         }
     }
 
-//if the card we clicked equals the whatcard type then we have a match 
-//match or no match the value has to be null
+    //if the card we clicked equals the whatcard type then we have a match 
+    //match or no match the value has to be null
     areCardsMatched(cards) {
         if (this.whatTypeCard(cards) === this.whatTypeCard(this.cardsToCheck)) {
             this.cardsMatched(cards, this.cardsToCheck);
@@ -92,13 +113,7 @@ class TheOffice {
         }
     }
 
-
-//returning the card value and the source attribute 
-    whatTypeCard(cards) {
-        return cards.getElementsByClassName('dog-card')[0].src;
-    }
-
-//pushes both cards to matched cards array and checks if there is a match 
+    //pushes both cards to matched cards array and checks if there is a match 
     cardsMatched(cards1, cards2) {
         this.matchedCard.push(cards1);
         this.matchedCard.push(cards2);
@@ -107,8 +122,8 @@ class TheOffice {
             this.winner();
     }
 
-//two cards that do not match are flipped back over
-//one second allowed to view cards then registers as not busy flips back 
+    //two cards that do not match are flipped back over
+    //one second allowed to view cards then registers as not busy flips back 
     cardsNoMatch(cards1, cards2) {
         this.busy = true;
         setTimeout(() => {
@@ -118,28 +133,7 @@ class TheOffice {
         }, 1000);
     }
 
-//timer is cleared, plays audio, gameover text pops up
-    gameOver() {
-        clearInterval(this.timer);
-        this.OfficeAudio.lose();
-        document.getElementById('game-over-text').classList.add('visible');
-    }
-
-//stops counting down, plays audio, winning text pops up 
-    winner() {
-        clearInterval(this.timer);
-        this.OfficeAudio.win();
-        document.getElementById('winner-text').classList.add('visible');
-    }
-
-//loops through cards array and removes visible class 
-    turnCardBack() {
-        this.cardArray.forEach(cards => {
-            cards.classList.remove('visible');
-        });
-    }
-
-//Fisher Yates shuffle algorothim used to shuffle cards https://medium.com/@oldwestaction/randomness-is-hard-e085decbcbb2
+    //Fisher Yates shuffle algorothim used to shuffle cards https://medium.com/@oldwestaction/randomness-is-hard-e085decbcbb2
     shuffleCards() {
         for (let i = this.cardArray.length - 1; i > 0; i--) {
             let randomInt = Math.floor(Math.random() * (i + 1));
@@ -147,11 +141,16 @@ class TheOffice {
             this.cardArray[i].style.order = randomInt;
         }
     }
-    
-//scenarios whereby user cannot flip a card, game busy, clicking on a card that is already matched, clicking on card that is already flipped waiting card to check 
-//creates a boolean, if all 3 values are false this will return true 
-// if this returns true user can flip the card
-canflipCards(cards) {
+
+    //returning the card value and the source attribute 
+    whatTypeCard(cards) {
+        return cards.getElementsByClassName('dog-card')[0].src;
+    }
+
+    //scenarios whereby user cannot flip a card, game busy, clicking on a card that is already matched, clicking on card that is already flipped waiting card to check 
+    //creates a boolean, if all 3 values are false this will return true 
+    // if this returns true user can flip the card
+    canflipCards(cards) {
         return !this.busy && !this.matchedCard.includes(cards) && cards !== this.cardsToCheck;
     }
 }
