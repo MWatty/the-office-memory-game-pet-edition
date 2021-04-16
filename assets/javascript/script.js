@@ -1,4 +1,5 @@
-//created to add sound effects to provide an interactive element to the game 
+//addition of cound effects to various points throughout the game 
+//this means that variable belongs to that particular object 
 class OfficeAudio {
     constructor() {
         this.flipSound = new Audio('assets/audio/flip.wav');
@@ -14,6 +15,7 @@ class OfficeAudio {
     }
     win() {
         this.winSound.play();
+        //change this sound to a dog barking 
     }
     lose() {
         this.loseSound.play();
@@ -25,8 +27,8 @@ class TheOffice {
         this.cardArray = card;//property of the object which is set from the constructor 
         this.totalTime = totalTime;//property of the object which is set from the constructor 
         this.timeRemaining = totalTime;//whatever the time remaining is at any point given throughout the game
-        this.countDown = document.getElementById('time-left');//the actual time pulled from the DOM
-        this.counter = document.getElementById('flips');//flip counter pulled from the DOM 
+        this.countDown = document.getElementById('time-left');//the actual time value pulled from the DOM
+        this.counter = document.getElementById('flips');//flip counter value pulled from the DOM 
         this.OfficeAudio = new OfficeAudio();//Office Audio that belongs to this particular game object 
     }
 
@@ -41,13 +43,13 @@ class TheOffice {
             this.shuffleCards();
             this.timer = this.startTimer();
             this.busy = false;
-        }, 500);
+        }, 500);//wait 500ms before doing what is in this function
         this.turnCardBack();
-        this.countDown.innerText = this.timeRemaining;
-        this.counter.innerText = this.totalClicks;
+        this.countDown.innerText = this.timeRemaining;//resetting countdown when starting a new game 
+        this.counter.innerText = this.totalClicks;//resetting counter when starting a new game 
     }
 
-
+//create a countdown timer counts down by one second, updates value of timer on HTML page, if time remaining equals zero calls game over function
     startTimer() {
         return setInterval(() => {
             this.timeRemaining--;
@@ -60,7 +62,8 @@ class TheOffice {
     //create a function to pause the game 
     //create a function to reset the game 
 
-
+//if user can flips the card, adds sound, iterates flips, updates value of counter,flips card
+//if statement then checks are we trying to match a card or flipping for first time  
     flipCards(cards) {
         if (this.canflipCards(cards)) {
             this.OfficeAudio.flip();
@@ -76,6 +79,8 @@ class TheOffice {
         }
     }
 
+//if the card we clicked equals the whatcard type then we have a match 
+//match or no match the value has to be null
     areCardsMatched(cards) {
         if (this.whatTypeCard(cards) === this.whatTypeCard(this.cardsToCheck)) {
             this.cardsMatched(cards, this.cardsToCheck);
@@ -88,11 +93,12 @@ class TheOffice {
     }
 
 
-
+//returning the card value and the source attribute 
     whatTypeCard(cards) {
         return cards.getElementsByClassName('dog-card')[0].src;
     }
 
+//pushes both cards to matched cards array and checks if there is a match 
     cardsMatched(cards1, cards2) {
         this.matchedCard.push(cards1);
         this.matchedCard.push(cards2);
@@ -101,7 +107,8 @@ class TheOffice {
             this.winner();
     }
 
-
+//two cards that do not match are flipped back over
+//one second allowed to view cards then registers as not busy flips back 
     cardsNoMatch(cards1, cards2) {
         this.busy = true;
         setTimeout(() => {
@@ -111,19 +118,21 @@ class TheOffice {
         }, 1000);
     }
 
-
+//timer is cleared, plays audio, gameover text pops up
     gameOver() {
         clearInterval(this.timer);
         this.OfficeAudio.lose();
         document.getElementById('game-over-text').classList.add('visible');
     }
 
+//stops counting down, plays audio, winning text pops up 
     winner() {
         clearInterval(this.timer);
         this.OfficeAudio.win();
         document.getElementById('winner-text').classList.add('visible');
     }
 
+//loops through cards array and removes visible class 
     turnCardBack() {
         this.cardArray.forEach(cards => {
             cards.classList.remove('visible');
@@ -147,7 +156,9 @@ canflipCards(cards) {
     }
 }
 
-
+// this function initialises the programme 
+//creates an array of the HTML elements 
+//then loops over the array and adds click event listeners 
 function ready() {
     let gametext = Array.from(document.getElementsByClassName('gameplay-text'));
     let card = Array.from(document.getElementsByClassName('cards'));
