@@ -143,6 +143,8 @@ in the user experience. The aim of the image use in the game was fun.
 
 ## Testing 
 
+
+
 ### Testing User Stories from User Experience (UX) Section
 
 #### Visitors 
@@ -204,26 +206,24 @@ in the user experience. The aim of the image use in the game was fun.
     2. 
     3. 
     
+   
+### Further Testing
 
-    
- 
+* The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+* A large amount of testing was done to ensure that all pages were linking correctly.
+* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-* No spacing between the word flips and the flip counter on the game.html page, amended and working much better 
+#### Devices 
 
-* Audio for card fliping is not adequate the sound is too slow and only makes a sound for every second card. This needs 
-to be changed. 
+Tested the game funcitonality on the devices listed below: 
 
-* Need to get advice on the click to play do not like the way it moves. 
-
-* Amended the icons on the card backs to all be paws as when shuffling the cards the matches were ties and paws. 
-
-
-### Devices 
-
-Tested the game funcitonality on both of the phones listed below: 
-
+* Mac Book Pro 
 * Iphone 11 
 * Honor 10 
+* Desktop 
+
+
+ 
 
 ### Features Tested 
 
@@ -233,8 +233,14 @@ overlapping on the navigation bar. Media Query created for devices max width 320
 * Photographs of some of the dogs on cards when tested were stretched, used researched 
 and used object-fit cover to fix the issues. 
 
+* No spacing between the word flips and the flip counter on the game.html page, amended and working much better 
 
-### Third Party Services 
+* Audio for card fliping is not adequate the sound is too slow and only makes a sound for every second card. This needs 
+to be changed. 
+
+* Need to get advice on the click to play do not like the way it moves. 
+
+* Amended the icons on the card backs to all be paws as when shuffling the cards the matches were ties and paws. 
 
 ## Deployment 
 
