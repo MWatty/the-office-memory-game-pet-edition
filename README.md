@@ -5,7 +5,7 @@ Milestone Project 2 - Interactive Frontend - Code Institute
 ![MS2 The Office Memory Game](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/Mockup.png "MS2 The Office Memory Game")
 
 The Office Memory Game - Pet Edition is a memory game website. It's a traditional card flipping 
-memory game. The game will appeal to all age group and animal loves alike. It's simple and fun with 
+memory game. The game will appeal to all age group and animal lovers alike. It's simple and fun with 
 a dollop of competition. 
 
 ## Demo 
@@ -25,15 +25,12 @@ time and time again to test their skills and assess how their improvements.
 
 #### Vistor Goals 
 
-
 * As a visitor, I want the site to be simple to navigate.
 * As a visitor, I want the site to be visually appealing.
 * As a visitor, I want simple and clear insturctions on how to play the game.
-* As a visitor, I want to keep track of my previous scores and see how I have improved.
-* As a visitor, I want to progress to different levels.
 * As a visitor, I want to be able to play this game on all devices without impacting on quality.
-* As a returning visitor, I want to keep track of my previous scores and see how I have improved 
-* As a returning visitor, I want to progress to different levels 
+* As a visitor, I want to have fun and have a sense of competition. 
+
 
 #### Site owner goals
 
@@ -152,15 +149,70 @@ in the user experience. The aim of the images use in the game was fun.
 
 ### Testing User Stories from User Experience (UX) Section
 
-   1. As a First Time Visitor, I 
+#### Visitors 
+
+   1. As Visitor, I want the site to be simple to navigate.
+
+        1. 
+        2. 
+        3. 
+
+   2. As Visitor, I want the site to be visually appealing.
 
         1.  
         2. 
         3. 
 
+    3. As Visitor, I want simple and clear insturctions on how to play the game.
+
+        1.  
+        2. 
+        3. 
+
+    4. As Visitor, I want to be able to play this game on all devices without impacting on quality.
+
+        1.  
+        2. 
+        3. 
+
+    5. As Visitor, I want to have fun and have a sense of competition. 
+
+        1.  
+        2. 
+        3. 
+
+#### Site Owner 
+
+1.  As a site owner, I want visitors to find this site visually appealing. 
+
+    1.  
+    2. 
+    3. 
 
 
-* No spacing bwtween the word flips and the flip counter on the game.html page, amended and working much better 
+2. As a site owner, I want visitors to enjoy the game and have fun.
+
+    1.  
+    2. 
+    3. 
+
+3. As a site owner, I want this site to be responsive so that visitors can play the game on all devices. 
+
+    1.  
+    2. 
+    3. 
+
+4. As a site owner, I want visitors to have a sense of competition when playing with the aim of attracting visitors back to play.
+
+    1. 
+    2. 
+    3. 
+    
+
+    
+ 
+
+* No spacing between the word flips and the flip counter on the game.html page, amended and working much better 
 
 * Audio for card fliping is not adequate the sound is too slow and only makes a sound for every second card. This needs 
 to be changed. 
