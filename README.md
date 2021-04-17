@@ -150,6 +150,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
  & [Results with no errors](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSHTMLval.png "Results with no errors")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - [Results](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSCSSValidation.png "Results")
 
+JShint was used to detect errors and potential problems within the Javascript Code. The only issues identified in JShint as per 
+the results below related to the use of 'class',let' and the 'arrow function' which are only available in ES6, this is not a cause for concern. 
+
 * [JShint](https://jshint.com/) - [Results](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSJShint.png "Results")
 
 ### Testing User Stories from User Experience (UX) Section
@@ -331,6 +334,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 * This template was used to assist in the creation of the [Deployment Section](https://raw.githubusercontent.com/Code-Institute-Solutions/SampleREADME/master/README.md)
  
+* https://jshint.com/about/ 
 ### Media 
 
 * Photo by <a href="https://unsplash.com/@kaleidico?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kaleidico</a> on <a href="/s/photos/meeting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
