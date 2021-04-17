@@ -373,7 +373,7 @@ creation of this website.
 
 * [ROBIN WIERUCH](https://www.robinwieruch.de/javascript-naming-conventions) blog post was used to assist with naming conventions in JavaScript.
 
-* This template was used to assist in the creation of the [Deployment Section](https://raw.githubusercontent.com/Code-Institute-Solutions/SampleREADME/master/README.md)
+* Deployment Section created from the information provided within this [template](https://raw.githubusercontent.com/Code-Institute-Solutions/SampleREADME/master/README.md). 
  
 
 ### Media 
