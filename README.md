@@ -337,7 +337,7 @@ the results below related to the use of 'class',let' and the 'arrow function' wh
    
 ### Further Testing
 
-* The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+* The Website was tested on Google Chrome ,Firefox, Internet Explorer, Opera Microsoft Edge and Safari browsers.
 * A large amount of testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
@@ -360,12 +360,10 @@ and used object-fit cover to fix the issues.
 
 * No spacing between the word flips and the flip counter on the game.html page, amended and working much better 
 
-* Audio for card fliping is not adequate the sound is too slow and only makes a sound for every second card. This needs 
-to be changed. 
+* Amended the icons on the card backs to all be paws as when shuffling the cards the matches were ties and paws making it easier to play.  
 
-* Need to get advice on the click to play do not like the way it moves. 
+### Known Bugs 
 
-* Amended the icons on the card backs to all be paws as when shuffling the cards the matches were ties and paws. 
 
 ## Deployment 
 
