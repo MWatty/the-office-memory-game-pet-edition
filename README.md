@@ -220,7 +220,7 @@ in the user experience. The aim of the image use in the game was fun.
 
     1. This website is reposnsive on all devices and game quality is not impacted depandant on the device used. 
 
-![Responsive Moto]()
+![Responsive Moto](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSresponsemoto%202.png "Responsive Moto")
 
 
 4. As a site owner, I want visitors to have a sense of competition when playing with the aim of attracting visitors back to play.
