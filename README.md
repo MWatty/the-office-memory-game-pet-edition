@@ -352,17 +352,30 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Content 
 
-* https://github.com/WebDevSimplified/Mix-Or-Match
+* Content was written by the developer Maura Watkinson. 
 
-* https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
+### Code 
 
-* https://medium.com/@oldwestaction/randomness-is-hard-e085decbcbb2
+* [Scotch.io](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript) was used as a source of guidance and inspiration for the project. 
 
-* https://www.robinwieruch.de/javascript-naming-conventions 
+* [W3 Schools](https://www.w3schools.com/howto/howto_css_blurred_background.asp) tutorial and code was used and amended to create the landing page blurred background image. 
+
+* [Marina Ferreira](https://www.youtube.com/watch?v=ZniVgo8U7ek--) You Tube tutorial was used to assist in the creation of the card structure. 
+
+* [Web Dev Simplified](https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s) HTML & CSS tutorial on [You Tube](https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s) was followed and used to assist in the 
+creation of this website.  
+
+* Information from [PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=3042s) You Tube tutorial was used and amended to create the JavaScript code. 
+
+* This [Wikepedia](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) page was used to understand the Fisher Yates algorothim. 
+
+* [anh-thu huynh](https://medium.com/@oldwestaction/randomness-is-hard-e085decbcbb2) blog post was used to assist in the understanding and coding of the shuffle function. 
+
+* [ROBIN WIERUCH](https://www.robinwieruch.de/javascript-naming-conventions) blog post was used to assist with naming conventions in JavaScript.
 
 * This template was used to assist in the creation of the [Deployment Section](https://raw.githubusercontent.com/Code-Institute-Solutions/SampleREADME/master/README.md)
  
-* https://jshint.com/about/ 
+
 ### Media 
 
 * Photo by <a href="https://unsplash.com/@kaleidico?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kaleidico</a> on <a href="/s/photos/meeting?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -387,6 +400,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
   
 * Photo by <a href="https://unsplash.com/@vittrupfoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Isabel Vittrup-Pallier</a> on <a href="/s/photos/dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
-* https://mixkit.co/free-sound-effects/win/
+* [MixKit](https://mixkit.co/free-sound-effects/win/) was used to add the sounds effects to this game. 
 
 ### Acknowledgements 

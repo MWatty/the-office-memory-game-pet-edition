@@ -24,7 +24,7 @@ margin-left: 105px;
     font-size: larger;
 }
 
-/*https://www.w3schools.com/howto/howto_css_blurred_background.asp*/
+/*W3 Schools tutorial used to assist https://www.w3schools.com/howto/howto_css_blurred_background.asp*/
 .bg-image {
   background-image: url("../images/officeback.jpg"); 
   filter: blur(8px);
@@ -36,8 +36,8 @@ margin-left: 105px;
 }
 
 .bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
@@ -81,6 +81,7 @@ margin-left: 105px;
      border-radius: 15px;
 }
 
+/* CSS below inspired and taken from Web Dev Simplified You Tube Tutorial https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s)*/
 .cardgame-info-container{
     grid-column: 1 / -1;
     display: flex;
@@ -196,7 +197,7 @@ margin-left: 105px;
 }
 }
 
-/*https://github.com/WebDevSimplified/Mix-Or-Match*/
+/* CSS below inspired and taken from Web Dev Simplified You Tube Tutorial https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s)*/
 .gameplay-text{
     position: fixed;
     top: 0%;

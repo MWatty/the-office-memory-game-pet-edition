@@ -1,3 +1,5 @@
+// Information provided in the You Tube Tutorial by PortEXE(https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=3042s) was used and amended to create the JavaScript Code below. 
+
 //addition of cound effects to various points throughout the game 
 //this means that variable belongs to that particular object 
 class OfficeAudio {
