@@ -125,22 +125,50 @@ in the user experience. The aim of the image use in the game was fun.
 
 ## Technologies Used 
 
+### Languages
+
 * [HTML5](https://www.graycelltech.com/why-use-html-5/) was used as this is the latest Hypertext Markup Language and this is the standard language for describing the contents and appearance of Web Pages.
   All major browsers offer HTML5 support. 
 
 * [CSS](https://www.w3schools.com/css/css_intro.asp) is used to define styles for web pages, including the design, layout and variations in display for different devices and screen sizes.
 
+* [JavaScript](https://www.w3schools.com/js/DEFAULT.asp) is used to program the behaviour of webpages.
+
+### Libraries 
+
 * [Bootstrap](https://getbootstrap.com/) was used as this lends itself to quickly design and customize mobile first-sites.
 
 * [Google-Fonts](https://fonts.google.com/) were used to style the website fonts and ensure they complimented each other.
+
+* [Balsamiq](https://balsamiq.com/) used to create the wireframes. 
+
+* [Font Awesome](https://fontawesome.com/) was used to add font icons to the website. 
+
+* [JQuery](https://jquery.com/) was used to make the use of JavaScript on the website easier. 
+
+### Version Control 
+
+* [GIT](https://git-scm.com/) was used as version control in utilising [Gitpod](https://gitpod.io) to add code, commit and push to [GitHub](https://github.com).
 
 * [Gitpod](https://gitpod.io) was used as this is an open source platform for automated and ready to code development environments that blends into your existing workflow.
 
 * [GitHub](https://github.com) was used as a hosting platform for version control.
 
+### Tools and Other Resources 
+
 * [Pixlr](https://pixlr.com/) was used to resize the images for optimum size for web use (max 798 x 1280).
 
 * [TinyJPG](https://tinyjpg.com/) was used to compress the image files.
+
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) was used to edit pages and diagnose problems quickly. 
+
+* [Browserling](https://www.browserling.com/) was used for cross browser testing.
+
+* [Am I responsive](http://ami.responsivedesign.is/#) was used to create a mock up.
+
+* [W3 Schools](https://www.w3schools.com/) used as a general reference guide for CSS tips and Javascript function queries.
+
+* [Youtube](https://www.youtube.com/) used as a reference for online HTML, CSS & JavaScript tutorials 
 
 ## Testing 
 
