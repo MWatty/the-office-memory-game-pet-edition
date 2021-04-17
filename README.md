@@ -156,6 +156,8 @@ in the user experience. The aim of the image use in the game was fun.
     2. The user has two options, click either the how to play button or the new game button, again highlighting what the website is about, a game. 
     3. In a simple click the user may access the how to play button and learn exactly how to plat the game. 
 
+##### Home Page Image 
+
 2. As Visitor, I want the site to be simple to navigate.
 
     1. Upon entering the site, users are greeted with a simple minimalist landing page that meets with expected convention.  
@@ -163,20 +165,28 @@ in the user experience. The aim of the image use in the game was fun.
     3. There are two user option in a highlighted button format that steer the user to learn about the game and navigate simply through the game. 
     4. Once the user clicks new game, there is an additional "Click to Play" again allowing the user to navigate simply and giving time to assess the next step. 
 
+##### Click to play 
+
 3. As Visitor, I want the site to be visually appealing.
 
     1. Upon entering the site, the user is greeted with a simple minimlaist landing page, with highlighted secitons to draw their eye. 
     2. The font used throughout is consistent and asthetically pleasing, there is also limited font to keep the user engaged. 
     3. The colour scheme is consistent adn ensures there is a flow to the game. 
 
+##### Card Game 
+
 4. As Visitor, I want simple and clear instructions on how to play the game.
 
     1. The instructions on how to play are easily accessible and succinct, located within the how to play button. 
+
+##### How to play section 
 
 5. As Visitor, I want to be able to play this game on all devices without impacting on quality.
 
     1. The website has been tested on a number of devices and works well on both smaller and largers screens.  
     2. The quality of the game is not impacted dependant on the device used. 
+
+##### Image on all devices 
 
 6. As Visitor, I want to have fun and have a sense of competition. 
 
@@ -184,34 +194,47 @@ in the user experience. The aim of the image use in the game was fun.
     2. The user of a timer adds a sense of competition, with the aim of the game being the user trying to beat the clock. 
     3. The sound effects added to the game provide and element of fun and competition notifying the user of wins, losses, flips and matches. 
 
+##### Game Over pop up 
+
 #### Site Owner 
 
 1.  As a site owner, I want visitors to find this site visually appealing. 
 
-    1.  
-    2. 
-    3. 
+    1. Upon entering the site, the user is greeted with a simple minimlaist landing page, with highlighted secitons to draw their eye. 
+    2. The font used throughout is consistent and asthetically pleasing, there is also limited font to keep the user engaged. 
+    3. The colour scheme is consistent adn ensures there is a flow to the game.  
+
+##### Landing Page Screenshot Desktop 
+
 
 
 2. As a site owner, I want visitors to enjoy the game and have fun.
 
-    1.  
-    2. 
-    3. 
+    1. The images used within the game section should provide an element of fun. (a dog in a bow tie)
+    2. The sounds effects used throuhgout should also provide a sense of fun and excitement for ther user. 
+    3. The colours have been carefully chosen to ensure the game is kept light, using lowercase and pops of neon. 
+
+##### Game Card Image with some cards turned over 
+
 
 3. As a site owner, I want this site to be responsive so that visitors can play the game on all devices. 
 
-    1.  
-    2. 
-    3. 
+    1. This website is reposnsive on all devices and game quality is not impacted depandant on the device used. 
+
+##### Show image on various devices game section 
+
+
 
 4. As a site owner, I want visitors to have a sense of competition when playing with the aim of attracting visitors back to play.
 
-    1. 
-    2. 
-    3. 
+    1. With the aim of the game being trying to beat the clock this should have the desired impact of creating a sense of competition.  
+    2. The more seasoned user as well as trying to beat the clock can also aim to reduce their flip count. 
+    3. The sounds effect also have a knock on impact of heightened competitiveness, no one wants to hear the losing sound. 
+
+##### You Win Screenshot
     
    
+
 ### Further Testing
 
 * The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
@@ -226,9 +249,6 @@ Tested the game funcitonality on the devices listed below:
 * Iphone 11 
 * Honor 10 
 * Desktop 
-
-
- 
 
 ### Features Tested 
 
