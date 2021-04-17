@@ -146,11 +146,11 @@ in the user experience. The aim of the image use in the game was fun.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. 
 
-* [WC3 Markup Validation Serivce](https://validator.w3.org/#validate_by_input) - ![Initial Results with error](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SShtmlerror.png "Initial Results with error")
-![Results with no errors](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSHTMLval.png "Results with no errors")
-* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - ![Results](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSCSSValidation.png "Results")
+* [WC3 Markup Validation Serivce](https://validator.w3.org/#validate_by_input) - [Initial Results with error](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SShtmlerror.png "Initial Results with error")
+ & [Results with no errors](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSHTMLval.png "Results with no errors")
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - [Results](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSCSSValidation.png "Results")
 
-* [JShint](https://jshint.com/) - ![Results](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSJShint.png "Results")
+* [JShint](https://jshint.com/) - [Results](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSJShint.png "Results")
 
 ### Testing User Stories from User Experience (UX) Section
 
