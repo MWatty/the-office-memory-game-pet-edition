@@ -156,7 +156,7 @@ in the user experience. The aim of the image use in the game was fun.
     2. The user has two options, click either the how to play button or the new game button, again highlighting what the website is about, a game. 
     3. In a simple click the user may access the how to play button and learn exactly how to plat the game. 
 
-##### Home Page Image 
+![Landing Page](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/sshomepage.png "Landing Page")
 
 2. As Visitor, I want the site to be simple to navigate.
 
@@ -165,7 +165,7 @@ in the user experience. The aim of the image use in the game was fun.
     3. There are two user option in a highlighted button format that steer the user to learn about the game and navigate simply through the game. 
     4. Once the user clicks new game, there is an additional "Click to Play" again allowing the user to navigate simply and giving time to assess the next step. 
 
-##### Click to play 
+![Click to Play](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSclicktoplay.png "Click to Play")
 
 3. As Visitor, I want the site to be visually appealing.
 
@@ -173,20 +173,20 @@ in the user experience. The aim of the image use in the game was fun.
     2. The font used throughout is consistent and asthetically pleasing, there is also limited font to keep the user engaged. 
     3. The colour scheme is consistent adn ensures there is a flow to the game. 
 
-##### Card Game 
+![Card Game](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SScardgame.png "Card Game")
 
 4. As Visitor, I want simple and clear instructions on how to play the game.
 
     1. The instructions on how to play are easily accessible and succinct, located within the how to play button. 
 
-##### How to play section 
+![How to Play](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SShowtoplay.png "How to Play")
 
 5. As Visitor, I want to be able to play this game on all devices without impacting on quality.
 
     1. The website has been tested on a number of devices and works well on both smaller and largers screens.  
     2. The quality of the game is not impacted dependant on the device used. 
 
-##### Image on all devices 
+![Responsiveness](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSiphone678.png "Responsiveness")
 
 6. As Visitor, I want to have fun and have a sense of competition. 
 
@@ -194,7 +194,7 @@ in the user experience. The aim of the image use in the game was fun.
     2. The user of a timer adds a sense of competition, with the aim of the game being the user trying to beat the clock. 
     3. The sound effects added to the game provide and element of fun and competition notifying the user of wins, losses, flips and matches. 
 
-##### Game Over pop up 
+![Game Over Pop-up](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSlost.png "Game Over Pop-up")
 
 #### Site Owner 
 
@@ -207,22 +207,20 @@ in the user experience. The aim of the image use in the game was fun.
 ![Landing Page](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/sshomepage.png "Landing Page")
 
 
-
 2. As a site owner, I want visitors to enjoy the game and have fun.
 
     1. The images used within the game section should provide an element of fun. (a dog in a bow tie)
     2. The sounds effects used throuhgout should also provide a sense of fun and excitement for ther user. 
     3. The colours have been carefully chosen to ensure the game is kept light, using lowercase and pops of neon. 
 
-##### Game Card Image with some cards turned over 
+![Card Game Images](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SScardsturned.png "Card Game Images")
 
 
 3. As a site owner, I want this site to be responsive so that visitors can play the game on all devices. 
 
     1. This website is reposnsive on all devices and game quality is not impacted depandant on the device used. 
 
-##### Show image on various devices game section 
-
+##### add image 
 
 
 4. As a site owner, I want visitors to have a sense of competition when playing with the aim of attracting visitors back to play.
@@ -231,10 +229,9 @@ in the user experience. The aim of the image use in the game was fun.
     2. The more seasoned user as well as trying to beat the clock can also aim to reduce their flip count. 
     3. The sounds effect also have a knock on impact of heightened competitiveness, no one wants to hear the losing sound. 
 
-##### You Win Screenshot
+![You Win](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSyouwon.png "You Win")
     
    
-
 ### Further Testing
 
 * The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
