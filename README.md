@@ -25,6 +25,7 @@ time and time again to test their skills and assess how their improvements.
 
 #### Vistor Goals 
 
+* As a visitor, I want to understand the main purpose of the site. 
 * As a visitor, I want the site to be simple to navigate.
 * As a visitor, I want the site to be visually appealing.
 * As a visitor, I want simple and clear insturctions on how to play the game.
@@ -149,35 +150,39 @@ in the user experience. The aim of the image use in the game was fun.
 
 #### Visitors 
 
-   1. As Visitor, I want the site to be simple to navigate.
+ 1. As Visitor, I want to understand the main purpose of the site. 
 
-        1. 
-        2. 
-        3. 
+    1. Upon entering the site, users are greeted by a large banner that explains simply what this website is about, a memory game.  
+    2. The user has two options, click either the how to play button or the new game button, again highlighting what the website is about, a game. 
+    3. In a simple click the user may access the how to play button and learn exactly how to plat the game. 
 
-   2. As Visitor, I want the site to be visually appealing.
+2. As Visitor, I want the site to be simple to navigate.
 
-        1.  
-        2. 
-        3. 
+    1. Upon entering the site, users are greeted with a simple minimalist landing page that meets with expected convention.  
+    2. At the top of each page there is a navigation bar consisting of a simple home button
+    3. There are two user option in a highlighted button format that steer the user to learn about the game and navigate simply through the game. 
+    4. Once the user clicks new game, there is an additional "Click to Play" again allowing the user to navigate simply and giving time to assess the next step. 
 
-    3. As Visitor, I want simple and clear insturctions on how to play the game.
+3. As Visitor, I want the site to be visually appealing.
 
-        1.  
-        2. 
-        3. 
+    1. Upon entering the site, the user is greeted with a simple minimlaist landing page, with highlighted secitons to draw their eye. 
+    2. The font used throughout is consistent and asthetically pleasing, there is also limited font to keep the user engaged. 
+    3. The colour scheme is consistent adn ensures there is a flow to the game. 
 
-    4. As Visitor, I want to be able to play this game on all devices without impacting on quality.
+4. As Visitor, I want simple and clear instructions on how to play the game.
 
-        1.  
-        2. 
-        3. 
+    1. The instructions on how to play are easily accessible and succinct, located within the how to play button. 
 
-    5. As Visitor, I want to have fun and have a sense of competition. 
+5. As Visitor, I want to be able to play this game on all devices without impacting on quality.
 
-        1.  
-        2. 
-        3. 
+    1. The website has been tested on a number of devices and works well on both smaller and largers screens.  
+    2. The quality of the game is not impacted dependant on the device used. 
+
+6. As Visitor, I want to have fun and have a sense of competition. 
+
+    1. The colour scheme adds a playful element with the pops of neon colour. 
+    2. The user of a timer adds a sense of competition, with the aim of the game being the user trying to beat the clock. 
+    3. The sound effects added to the game provide and element of fun and competition notifying the user of wins, losses, flips and matches. 
 
 #### Site Owner 
 
