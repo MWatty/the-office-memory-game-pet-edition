@@ -154,6 +154,28 @@ background covering the entire page was more in keeping with the design of the g
 
 ### Existing Features 
 
+* This website is reposnsive on all devices 
+
+* There are interactive elements throuhgout the website 
+
+* The website is categorised into two pages, a landing page and a game page. 
+
+#### Landing Page
+
+* Navigation bar as expected located across the top of teh page, this acts as the Home button. 
+* Central banner with a brief description of what the website is about, this also contains two buttons. 
+* Button one 'how to play!' when clicked gives the user simple instruciton on how to play the game and from here hte user can click to play. 
+* Button two 'new game!' takes the user to the 'click to play' game page where they can start their game. 
+* The footer is a simple with containing copyright information. 
+
+#### Game Page 
+* This page consists of the navigation bar as above with 'the office' acting as a home button. 
+* There is a countdown timer counting down in 1 second intervals for 60 seconds or until the game is won. 
+* There is a flip counter that iterates up by 1 as the user clicks or until the time runs out. 
+* There are 16 cards that can be flipped and the aim is to match all the cards in pairs in as little time as possible. 
+* Should the player run out of time the game ends with a game over modal and the option of playing again. 
+* Should the player win a winning modal pops up, again with the option of playing again. 
+
 
 ### Features left to implement 
 
@@ -163,6 +185,9 @@ background covering the entire page was more in keeping with the design of the g
 
 * Leaderboard - a leaderbord would be added to enhance the competitiveness of the game and allow for a more enhanced interactive user experience. 
 
+* Pause - should time have allowed a pause button would have been added to the game page. 
+
+* Reset - should time have allowed a reset button would have been added to the game page. 
 
 ## Technologies Used 
 
