@@ -204,7 +204,7 @@ in the user experience. The aim of the image use in the game was fun.
     2. The font used throughout is consistent and asthetically pleasing, there is also limited font to keep the user engaged. 
     3. The colour scheme is consistent adn ensures there is a flow to the game.  
 
-##### Landing Page Screenshot Desktop 
+![Landing Page](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/sshomepage.png "Landing Page")
 
 
 
