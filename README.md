@@ -144,7 +144,10 @@ in the user experience. The aim of the image use in the game was fun.
 
 ## Testing 
 
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. 
 
+* [WC3 Markup Validation Serivce](https://validator.w3.org/#validate_by_input) 
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 ### Testing User Stories from User Experience (UX) Section
 
