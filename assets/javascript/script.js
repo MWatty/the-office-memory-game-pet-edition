@@ -62,9 +62,20 @@ class TheOffice {
     }
 
     //create a function to pause the game 
-  
+    pauseGame(){
+        clearInterval(this.timer);
+    }
+
+    unpauseGame(){
+        clearInterval(this.timer);
+        this.startTimer();
+}
 
     //create a function to reset the game 
+    resetGame(){
+        clearInterval(this.timer);
+        this.startGame();
+    }
 
     //timer is cleared, plays audio, gameover text pops up
     gameOver() {
@@ -165,6 +176,9 @@ class TheOffice {
 function ready() {
     let gametext = Array.from(document.getElementsByClassName('gameplay-text'));
     let card = Array.from(document.getElementsByClassName('cards'));
+    let reset = Array.from(document.getElementsByClassName('resetbutton'));
+    let pause = Array.from(document.getElementsByClassName('pausebutton'));
+    let unpause = Array.from(document.getElementsByClassName('unpausebutton'));
     const timeAllowed = 60;
     let game = new TheOffice(timeAllowed, card);
 
@@ -179,6 +193,21 @@ function ready() {
             game.flipCards(cards);
         });
     });
+    reset.forEach(resetbutton => {
+        resetbutton.addEventListener('click', ()=> {
+            game.resetGame();
+        });
+    });
+     pause.forEach(pausebutton => {
+        pausebutton.addEventListener('click', ()=> {
+            game.pauseGame();
+        })
+        });
+    unpause.forEach(unpausebutton => {
+        unpausebutton.addEventListener('click', ()=> {
+            game.unpauseGame();
+        })
+        });
 }
 
 //if the HTML page is not loaded put an EventListener on the DOM that says when it is loaded call the ready function
