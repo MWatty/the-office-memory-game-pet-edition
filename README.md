@@ -110,9 +110,50 @@ in the user experience. The aim of the image use in the game was fun.
 
 #### Final Project Variations 
 
+##### Navigation Bar 
+* The navigation bar was amended from what was originally planned. 
+* As well as the office home button, it was planned there would also be a contact and play tab. 
+* However, these were removed from the website as deemed unnecessary, given there was a highlighted 'new game!' 
+button in place to attract the user, duplication of this could be construed as confusing to the user. 
+* The contact page was also deemed unnecessary for the website and was removed. These changes have ensured that the user stories 
+are met in that there is simple navigationand clarity throughout. 
+
+##### Footer
+* The footer was also paired back and kept very simplisitc. 
+* The return to top was not required as there was not need to scroll far enough down the page to warrant a return to top button. 
+* The links and social media links were deemed unnecessary for this particular game given the simple nature of the website. 
+
+##### How to Play Modal 
+* An additioanl 'new game!' button was added in to this to ensure ease of navigation fot the user. Without this feature the three 
+clicks to the desired destination may not have been possible. This may have created a undue burden on the user in terms of navigation.
+
+##### Click to Play 
+* A click to play pop up was added to enhance the user experience, rather than go to 'new game!' and click on a card to start. 
+The click to play overlay adds an addition interactive element and allows the user a little bit of time to understand and absorb 
+the scenario before the timer begins. 
+
+##### Exit Game Button 
+* The exit game button has not been added as the user can click on the office home button in the navigation bar should they wish to 
+exit the game. This seemed over burdensome on the user, when the home button is a well understood convention. 
+
+##### Max Flips 
+* The max flips was replaced with a flip counter that counnts up to as many flips as the user needs within the minute provided. 
+Having a timer and limit on the number of flips was decided to be unnecessary and a decision was made that a race against the clock 
+was more appropriate for this game. 
+
+##### Background Image on the Game Page 
+* Given the images on both sides of the cards the addition of a background image was not required. This could potentially have created a 
+distracting and over styled look to the page. 
+
+##### You Win, You Lose Pop Up 
+* The information provided within this was initially supposed to be within a square however it was decided that a blurred black 
+background covering the entire page was more in keeping with the design of the game. 
+
+
 ## Features 
 
 ### Existing Features 
+
 
 ### Features left to implement 
 
