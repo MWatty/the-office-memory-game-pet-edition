@@ -467,3 +467,9 @@ creation of this website.
 * [MixKit](https://mixkit.co/free-sound-effects/win/) was used to add the sounds effects to this game. 
 
 ### Acknowledgements 
+
+* Thank you to the tutors at Code Institure for their support and guidance in hte creation of this website. 
+
+* Thank you to the Code Institure Slack Community for their tips and assistance throughout the course of creating this game. 
+
+* A big thank you to my mentor Sandeep Aggarwal for his help throughout this project. 
