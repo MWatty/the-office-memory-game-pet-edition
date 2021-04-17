@@ -24,6 +24,12 @@ body {
     font-size: larger;
 }
 
+.pause-reset{
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: right;
+}
+
 /*W3 Schools tutorial used to assist https://www.w3schools.com/howto/howto_css_blurred_background.asp*/
 .bg-image {
     background-image: url("../images/officeback.jpg"); 

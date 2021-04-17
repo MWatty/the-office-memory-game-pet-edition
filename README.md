@@ -429,7 +429,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 * [Web Dev Simplified](https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s) HTML & CSS tutorial on [You Tube](https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s) was followed and used to assist in the 
 creation of this website.  
 
-* Information from [PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=3042s) You Tube tutorial was used and amended to create the JavaScript code. 
+* [PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=3042s) You Tube tutorial was used as the main learning source for the creation of the JavaScript Code within this game. 
 
 * This [Wikepedia](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) page was used to understand the Fisher Yates algorothim. 
 
@@ -468,8 +468,8 @@ creation of this website.
 
 ### Acknowledgements 
 
-* Thank you to the tutors at Code Institure for their support and guidance in hte creation of this website. 
+* Thank you to the tutors at Code Institute for their support and guidance in the creation of this website. 
 
-* Thank you to the Code Institure Slack Community for their tips and assistance throughout the course of creating this game. 
+* Thank you to the Code Institute Slack Community for their tips and assistance throughout the course of creating this game. 
 
 * A big thank you to my mentor Sandeep Aggarwal for his help throughout this project. 

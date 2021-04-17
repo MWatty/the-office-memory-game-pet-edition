@@ -1,4 +1,4 @@
-// Information provided in the You Tube Tutorial by PortEXE(https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=3042s) was used and amended to create the JavaScript Code below. 
+//You Tube Tutorial by PortEXE(https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=3042s) was used to assist in the creation of the JavaScript below
 
 //addition of cound effects to various points throughout the game 
 //this means that variable belongs to that particular object 
@@ -62,6 +62,8 @@ class TheOffice {
     }
 
     //create a function to pause the game 
+  
+
     //create a function to reset the game 
 
     //timer is cleared, plays audio, gameover text pops up
