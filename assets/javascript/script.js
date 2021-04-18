@@ -136,8 +136,9 @@ class TheOffice {
         this.matchedCard.push(cards1);
         this.matchedCard.push(cards2);
         this.OfficeAudio.match();
-        if (this.matchedCard.length === this.cardArray.length)
+        if (this.matchedCard.length === this.cardArray.length) {
             this.winner();
+            }
     }
 
     //two cards that do not match are flipped back over
