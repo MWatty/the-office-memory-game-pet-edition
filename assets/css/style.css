@@ -112,10 +112,11 @@ body {
     perspective: 500px;
 }
 
-.cards {
+.card {
     position: relative;
     height: 155px;
     width: 125px;
+    border: none;
 }
 
 .card-face {
@@ -133,11 +134,11 @@ body {
     transition: transform 600ms ease-in-out;
 }
 
-.cards.visible .cardback {
+.card.visible .cardback {
     transform: rotateY(-180deg); 
 }
 
-.cards.visible .cardfront {
+.card.visible .cardfront {
     transform: rotateY(0); 
 }
 
@@ -147,7 +148,7 @@ body {
     transform: rotateY(0); 
 }
 
-.cards:hover .cardback{
+.card:hover .cardback{
     background-color: #000000;
 }
 
@@ -183,7 +184,7 @@ body {
 
 
 @media (max-width: 640px){
-.cards {
+.card {
     position: relative;
     height: 70px;
     width: 50px;

@@ -28,8 +28,8 @@ class OfficeAudio {
 }
 
 class TheOffice {
-    constructor(totalTime, card) {
-        this.cardArray = card;//property of the object which is set from the constructor 
+    constructor(totalTime, cards) {
+        this.cardArray = cards;//property of the object which is set from the constructor 
         this.totalTime = totalTime;//property of the object which is set from the constructor 
         this.timeRemaining = totalTime;//whatever the time remaining is at any point given throughout the game
         this.countDown = document.getElementById('time-left');//the actual time value pulled from the DOM
@@ -96,45 +96,45 @@ class TheOffice {
 
     //loops through cards array and removes visible class 
     turnCardBack() {
-        this.cardArray.forEach(cards => {
-            cards.classList.remove('visible');
+        this.cardArray.forEach(maura => {
+            maura.classList.remove('visible');
         });
     }
 
     //if user can flips the card, adds sound, iterates flips, updates value of counter,flips card
     //if statement then checks are we trying to match a card or flipping for first time  
-    flipCards(cards) {
-        if (this.canflipCards(cards)) {
+    flipCards(card) {
+        if (this.canflipCards(card)) {
             this.OfficeAudio.flip();
             this.totalClicks++;
             this.counter.innerText = this.totalClicks;
-            cards.classList.add('visible');
+            card.classList.add('visible');
 
             if (this.cardsToCheck) {
-                this.areCardsMatched(cards);
+                this.areCardsMatched(card);
             } else {
-                this.cardsToCheck = cards;
+                this.cardsToCheck = card;
             }
         }
     }
 
     //if the card we clicked equals the whatcard type then we have a match 
     //match or no match the value has to be null
-    areCardsMatched(cards) {
-        if (this.whatTypeCard(cards) === this.whatTypeCard(this.cardsToCheck)) {
-            this.cardsMatched(cards, this.cardsToCheck);
+    areCardsMatched(card) {
+        if (this.whatTypeCard(card) === this.whatTypeCard(this.cardsToCheck)) {
+            this.cardsMatched(card, this.cardsToCheck);
             this.cardsToCheck = null;
         }
         else {
-            this.cardsNoMatch(cards, this.cardsToCheck);
+            this.cardsNoMatch(card, this.cardsToCheck);
             this.cardsToCheck = null;
         }
     }
 
     //pushes both cards to matched cards array and checks if there is a match 
-    cardsMatched(cards1, cards2) {
-        this.matchedCard.push(cards1);
-        this.matchedCard.push(cards2);
+    cardsMatched(card1, card2) {
+        this.matchedCard.push(card1);
+        this.matchedCard.push(card2);
         this.OfficeAudio.match();
         if (this.matchedCard.length === this.cardArray.length) {
             this.winner();
@@ -143,11 +143,11 @@ class TheOffice {
 
     //two cards that do not match are flipped back over
     //one second allowed to view cards then registers as not busy flips back 
-    cardsNoMatch(cards1, cards2) {
+    cardsNoMatch(card1, card2) {
         this.busy = true;
         setTimeout(() => {
-            cards1.classList.remove('visible');
-            cards2.classList.remove('visible');
+            card1.classList.remove('visible');
+            card2.classList.remove('visible');
             this.busy = false;
         }, 1000);
     }
@@ -162,15 +162,15 @@ class TheOffice {
     }
 
     //returning the card value and the source attribute 
-    whatTypeCard(cards) {
-        return cards.getElementsByClassName('dog-card')[0].src;
+    whatTypeCard(card) {
+        return card.getElementsByClassName('dog-card')[0].src;
     }
 
     //scenarios whereby user cannot flip a card, game busy, clicking on a card that is already matched, clicking on card that is already flipped waiting card to check 
     //creates a boolean, if all 3 values are false this will return true 
     // if this returns true user can flip the card
-    canflipCards(cards) {
-        return !this.busy && !this.matchedCard.includes(cards) && cards !== this.cardsToCheck;
+    canflipCards(card) {
+        return !this.busy && !this.matchedCard.includes(card) && card !== this.cardsToCheck;
     }
 }
 
@@ -179,12 +179,12 @@ class TheOffice {
 //then loops over the array and adds click event listeners 
 function ready() {
     let gametext = Array.from(document.getElementsByClassName('gameplay-text'));
-    let card = Array.from(document.getElementsByClassName('cards'));
+    let cards = Array.from(document.getElementsByClassName('card'));
     let reset = Array.from(document.getElementsByClassName('resetbutton'));
     let pause = Array.from(document.getElementsByClassName('pausebutton'));
     let unpause = Array.from(document.getElementsByClassName('unpausebutton'));
     const TIME_ALLOWED = 60;
-    let game = new TheOffice(TIME_ALLOWED, card);
+    let game = new TheOffice(TIME_ALLOWED, cards);
 
     gametext.forEach(gameplay => {
         gameplay.addEventListener('click', () => {
@@ -192,9 +192,9 @@ function ready() {
             game.startGame();
         });
     });
-    card.forEach(cards => {
-        cards.addEventListener('click', () => {
-            game.flipCards(cards);
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            game.flipCards(card);
         });
     });
     reset.forEach(resetbutton => {
