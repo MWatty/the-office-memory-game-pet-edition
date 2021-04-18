@@ -176,39 +176,39 @@ class TheOffice {
 //creates an array of the HTML elements 
 //then loops over the array and adds click event listeners 
 function ready() {
-    let gametext = Array.from(document.getElementsByClassName('gameplay-text'));
-    let cards = Array.from(document.getElementsByClassName('card'));
-    let reset = Array.from(document.getElementsByClassName('resetbutton'));
-    let pause = Array.from(document.getElementsByClassName('pausebutton'));
-    let unpause = Array.from(document.getElementsByClassName('unpausebutton'));
+    const GAMETEXT = Array.from(document.getElementsByClassName('gameplay-text'));
+    const CARDS = Array.from(document.getElementsByClassName('card'));
+    const RESET = Array.from(document.getElementsByClassName('resetbutton'));
+    const PAUSE = Array.from(document.getElementsByClassName('pausebutton'));
+    const UNPAUSE = Array.from(document.getElementsByClassName('unpausebutton'));
     const TIME_ALLOWED = 60;
-    let game = new TheOffice(TIME_ALLOWED, cards);
+    const GAME = new TheOffice(TIME_ALLOWED, CARDS);
 
-    gametext.forEach(gameplay => {
+    GAMETEXT.forEach(gameplay => {
         gameplay.addEventListener('click', () => {
             gameplay.classList.remove('visible');
-            game.startGame();
+            GAME.startGame();
         });
     });
-    cards.forEach(card => {
+    CARDS.forEach(card => {
         card.addEventListener('click', () => {
-            game.flipCards(card);
+            GAME.flipCards(card);
         });
     });
-    reset.forEach(resetbutton => {
+    RESET.forEach(resetbutton => {
         resetbutton.addEventListener('click', ()=> {
-            game.resetGame();
+            GAME.resetGame();
         });
     });
-     pause.forEach(pausebutton => {
+     PAUSE.forEach(pausebutton => {
         pausebutton.addEventListener('click', ()=> {
-            game.pauseGame();
+            GAME.pauseGame();
         })
         });
 
-    unpause.forEach(unpausebutton => {
+    UNPAUSE.forEach(unpausebutton => {
         unpausebutton.addEventListener('click', ()=> {
-            game.unpauseGame();
+            GAME.unpauseGame();
         });
         });
 }
