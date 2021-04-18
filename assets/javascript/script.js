@@ -8,7 +8,7 @@ class OfficeAudio {
     constructor() {
         this.flipSound = new Audio('assets/audio/flip.wav');
         this.matchSound = new Audio('assets/audio/win.wav');
-        this.winSound = new Audio('assets/audio/cheer.wav');
+        this.winSound = new Audio('assets/audio/woof.wav');
         this.loseSound = new Audio('assets/audio/lose.wav');
     }
     flip() {
@@ -16,11 +16,9 @@ class OfficeAudio {
     }
     match() {
         this.matchSound.play();
-        //potentially change this sound 
     }
     win() {
         this.winSound.play();
-        //change this sound to a dog barking 
     }
     lose() {
         this.loseSound.play();
