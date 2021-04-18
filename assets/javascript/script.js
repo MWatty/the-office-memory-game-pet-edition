@@ -183,8 +183,8 @@ function ready() {
     let reset = Array.from(document.getElementsByClassName('resetbutton'));
     let pause = Array.from(document.getElementsByClassName('pausebutton'));
     let unpause = Array.from(document.getElementsByClassName('unpausebutton'));
-    const timeAllowed = 60;
-    let game = new TheOffice(timeAllowed, card);
+    const TIME_ALLOWED = 60;
+    let game = new TheOffice(TIME_ALLOWED, card);
 
     gametext.forEach(gameplay => {
         gameplay.addEventListener('click', () => {
