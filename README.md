@@ -27,17 +27,17 @@ time and time again to test their skills and assess how their improvements.
 
 * As a visitor, I want to understand the main purpose of the site. 
 * As a visitor, I want the site to be simple to navigate.
-* As a visitor, I want the site to be visually appealing.
-* As a visitor, I want simple and clear insturctions on how to play the game.
+* As a visitor, I want simple and clear instructions on how to play the game.
 * As a visitor, I want to be able to play this game on all devices without impacting on quality.
+* As a visitor, I want the site to be visually appealing.
 * As a visitor, I want to have fun and have a sense of competition. 
 
 
 #### Site owner goals
 
-* As a site owner, I want visitors to find this site visually appealing. 
-* As a site owner, I want visitors to enjoy the game and have fun. 
 * As a site owner, I want this site to be responsive so that visitors can play the game on all devices. 
+* As a site owner, I want visitors to find this site visually appealing.  
+* As a site owner, I want visitors to enjoy the game and have fun. 
 * As a site owner, I want visitors to have a sense of competition when playing with the aim of 
 attracting visitors back to play. 
 
@@ -115,7 +115,7 @@ in the user experience. The aim of the image use in the game was fun.
 * As well as the office home button, it was planned there would also be a contact and play tab. 
 * However, these were removed from the website as deemed unnecessary, given there was a highlighted 'new game!' 
 button in place to attract the user, duplication of this could be construed as confusing to the user. 
-* The contact page was also deemed unnecessary for the website and was removed. These changes have ensured that the user stories 
+* The contact tab was also deemed unnecessary for the website and was removed. These changes have ensured that the user stories 
 are met in that there is simple navigationand clarity throughout. 
 
 ##### Footer
@@ -179,15 +179,9 @@ background covering the entire page was more in keeping with the design of the g
 
 ### Features left to implement 
 
-* Cookies Banner pop up - this should be added to ensure complaince with legislation relating to personal data and how that data is managed.
-
 * Levels - varying levels of difficulty would be addded to the game to enhance the user experience. 
 
 * Leaderboard - a leaderbord would be added to enhance the competitiveness of the game and allow for a more enhanced interactive user experience. 
-
-* Pause - should time have allowed a pause button would have been added to the game page. 
-
-* Reset - should time have allowed a reset button would have been added to the game page. 
 
 ## Technologies Used 
 
@@ -270,26 +264,26 @@ the results below related to the use of 'class',let' and the 'arrow function' wh
 
 ![Click to Play](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSclicktoplay.png "Click to Play")
 
-3. As Visitor, I want the site to be visually appealing.
+3. As Visitor, I want simple and clear instructions on how to play the game.
+
+    1. The instructions on how to play are easily accessible and succinct, located within the how to play button. 
+
+![How to Play](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SShowtoplay.png "How to Play")
+
+4. As Visitor, I want to be able to play this game on all devices without impacting on quality.
+
+    1. The website has been tested on a number of devices and works well on both smaller and largers screens.  
+    2. The quality of the game is not impacted dependant on the device used. 
+
+![Responsiveness](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSiphone678.png "Responsiveness")
+
+5. As Visitor, I want the site to be visually appealing.
 
     1. Upon entering the site, the user is greeted with a simple minimlaist landing page, with highlighted secitons to draw their eye. 
     2. The font used throughout is consistent and asthetically pleasing, there is also limited font to keep the user engaged. 
     3. The colour scheme is consistent adn ensures there is a flow to the game. 
 
 ![Card Game](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SScardgame.png "Card Game")
-
-4. As Visitor, I want simple and clear instructions on how to play the game.
-
-    1. The instructions on how to play are easily accessible and succinct, located within the how to play button. 
-
-![How to Play](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SShowtoplay.png "How to Play")
-
-5. As Visitor, I want to be able to play this game on all devices without impacting on quality.
-
-    1. The website has been tested on a number of devices and works well on both smaller and largers screens.  
-    2. The quality of the game is not impacted dependant on the device used. 
-
-![Responsiveness](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSiphone678.png "Responsiveness")
 
 6. As Visitor, I want to have fun and have a sense of competition. 
 
@@ -301,7 +295,13 @@ the results below related to the use of 'class',let' and the 'arrow function' wh
 
 #### Site Owner 
 
-1.  As a site owner, I want visitors to find this site visually appealing. 
+1. As a site owner, I want this site to be responsive so that visitors can play the game on all devices. 
+
+    1. This website is reposnsive on all devices and game quality is not impacted depandant on the device used. 
+
+![Responsive Moto](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSresponsemoto%202.png "Responsive Moto")
+
+2.  As a site owner, I want visitors to find this site visually appealing. 
 
     1. Upon entering the site, the user is greeted with a simple minimlaist landing page, with highlighted secitons to draw their eye. 
     2. The font used throughout is consistent and asthetically pleasing, there is also limited font to keep the user engaged. 
@@ -309,22 +309,13 @@ the results below related to the use of 'class',let' and the 'arrow function' wh
 
 ![Landing Page](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/sshomepage.png "Landing Page")
 
-
-2. As a site owner, I want visitors to enjoy the game and have fun.
+3. As a site owner, I want visitors to enjoy the game and have fun.
 
     1. The images used within the game section should provide an element of fun. (a dog in a bow tie)
     2. The sounds effects used throuhgout should also provide a sense of fun and excitement for ther user. 
     3. The colours have been carefully chosen to ensure the game is kept light, using lowercase and pops of neon. 
 
 ![Card Game Images](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SScardsturned.png "Card Game Images")
-
-
-3. As a site owner, I want this site to be responsive so that visitors can play the game on all devices. 
-
-    1. This website is reposnsive on all devices and game quality is not impacted depandant on the device used. 
-
-![Responsive Moto](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSresponsemoto%202.png "Responsive Moto")
-
 
 4. As a site owner, I want visitors to have a sense of competition when playing with the aim of attracting visitors back to play.
 
