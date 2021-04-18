@@ -41,11 +41,9 @@ class TheOffice {
         this.timeRemaining = this.totalTime;//time resets each time a new game is started 
         this.matchedCard = [];//all the matched cards we get whilst playing go into this array, check against cardArray for victory
         this.busy = true;//is there a scenario occuring whereby the game is busy 
-        setTimeout(() => {
-            this.shuffleCards();
-            this.timer = this.startTimer();
-            this.busy = false;
-        }, 500);//wait 500ms before doing what is in this function
+        this.shuffleCards();
+        this.timer = this.startTimer();
+        this.busy = false;
         this.turnCardBack();
         this.countDown.innerText = this.timeRemaining;//resetting countdown when starting a new game 
         this.counter.innerText = this.totalClicks;//resetting counter when starting a new game 
