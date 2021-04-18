@@ -63,12 +63,15 @@ class TheOffice {
 
     //create a function to pause the game 
     pauseGame(){
+        this.busy = true;
         clearInterval(this.timer);
     }
 
+    //create a funciton to play the game after pausing
     unpauseGame(){
+        this.busy = false;
         clearInterval(this.timer);
-        this.startTimer();
+        this.timer = this.startTimer();
 }
 
     //create a function to reset the game 
