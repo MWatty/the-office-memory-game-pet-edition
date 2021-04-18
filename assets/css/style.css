@@ -77,7 +77,8 @@ body {
 }
 
 .entry-button:hover{
-    background-color: #DCDCDC;
+     background-color: #000000;
+     color:#7FFF00 ;
 }
 
 .purbutton:hover{
@@ -88,7 +89,11 @@ body {
 .modal-button{
      background-color: #7FFF00;
      color: #000000; 
-     border-radius: 15px;
+}
+
+.modal-button:hover{
+     background-color: #000000;
+     color:#7FFF00 ;
 }
 
 /* CSS below inspired and taken from Web Dev Simplified You Tube Tutorial https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s)*/
