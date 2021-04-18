@@ -1,3 +1,5 @@
+"use strict";
+
 //You Tube Tutorial by PortEXE(https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=3042s) was used to assist in the creation of the JavaScript below
 
 //addition of cound effects to various points throughout the game 
@@ -204,10 +206,11 @@ function ready() {
             game.pauseGame();
         })
         });
+
     unpause.forEach(unpausebutton => {
         unpausebutton.addEventListener('click', ()=> {
             game.unpauseGame();
-        })
+        });
         });
 }
 
