@@ -96,6 +96,12 @@ body {
     color: #7fff00;
 }
 
+.pause-reset {
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: right;
+}
+
 /* CSS below inspired and taken from Web Dev Simplified You Tube Tutorial https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s)*/
 .cardgame-info-container {
     grid-column: 1 / -1;
@@ -215,7 +221,7 @@ body {
 /* CSS below inspired and taken from Web Dev Simplified You Tube Tutorial https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s)*/
 .gameplay-text {
     position: fixed;
-    top: 0%;
+    top: 10%;
     left: 0%;
     right: 0%;
     bottom: 0%;

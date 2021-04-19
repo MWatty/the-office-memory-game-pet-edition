@@ -40,7 +40,7 @@ class TheOffice {
         this.totalClicks = 0; //Each time a new game is started flip counter is equal to 0
         this.timeRemaining = this.totalTime; //Time resets each time a new game is started
         this.matchedCard = []; //All the matched cards we get whilst playing go into this array, check against cardArray for victory
-        this.busy = true; //Is there a scenario occuring whereby the game is busy
+        this.busy = true; //Is there a scenario occuring whereby the game is busy 
         this.shuffleCards();
         this.timer = this.startTimer();
         this.busy = false;
