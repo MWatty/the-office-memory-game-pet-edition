@@ -1,30 +1,30 @@
-
 * {
     box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
     height: 100vh;
     cursor: pointer;
 }
 
 body {
-    font-family: 'Courier Prime', monospace;
+    font-family: "Courier Prime", monospace;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 35px;
 }
 
-.nav-item{
+.nav-item {
     margin-left: 105px;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     font-size: larger;
 }
 
-.pause-reset{
+.pause-reset {
     padding-top: 20px;
     padding-right: 20px;
     text-align: right;
@@ -32,7 +32,7 @@ body {
 
 /*W3 Schools tutorial used to assist https://www.w3schools.com/howto/howto_css_blurred_background.asp*/
 .bg-image {
-    background-image: url("../images/officeback.jpg"); 
+    background-image: url("../images/officeback.jpg");
     filter: blur(8px);
     -webkit-filter: blur(8px);
     height: 80vh;
@@ -42,9 +42,9 @@ body {
 }
 
 .bg-text {
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0, 0.4); 
-    color:#FFFFFF;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #ffffff;
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
@@ -58,57 +58,57 @@ body {
     border-radius: 15px;
 }
 
-#greeting{
+#greeting {
     margin-top: 50px;
 }
 
-#meetup{
+#meetup {
     text-align: center;
     font-size: 20px;
     margin-bottom: 50px;
 }
 
-.entry{
+.entry {
     margin-bottom: 25px;
 }
 
-.entry-button{
-     background-color: #7FFF00;
+.entry-button {
+    background-color: #7fff00;
 }
 
-.entry-button:hover{
-     background-color: #000000;
-     color:#7FFF00 ;
+.entry-button:hover {
+    background-color: #000000;
+    color: #7fff00;
 }
 
-.purbutton:hover{
-     background-color: #000000;
-     color:#7FFF00 ;
+.purbutton:hover {
+    background-color: #000000;
+    color: #7fff00;
 }
 
-.modal-button{
-     background-color: #7FFF00;
-     color: #000000; 
+.modal-button {
+    background-color: #7fff00;
+    color: #000000;
 }
 
-.modal-button:hover{
-     background-color: #000000;
-     color:#7FFF00 ;
+.modal-button:hover {
+    background-color: #000000;
+    color: #7fff00;
 }
 
 /* CSS below inspired and taken from Web Dev Simplified You Tube Tutorial https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s)*/
-.cardgame-info-container{
+.cardgame-info-container {
     grid-column: 1 / -1;
     display: flex;
     justify-content: space-between;
 }
 
-.cardgame-info{
+.cardgame-info {
     font-size: 25px;
     color: #000000;
 }
 
-.cardgame-container{
+.cardgame-container {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
@@ -140,128 +140,124 @@ body {
 }
 
 .card.visible .cardback {
-    transform: rotateY(-180deg); 
+    transform: rotateY(-180deg);
 }
 
 .card.visible .cardfront {
-    transform: rotateY(0); 
+    transform: rotateY(0);
 }
 
 .cardback {
-    background-color:#7FFF00;
+    background-color: #7fff00;
     border-color: #000000;
-    transform: rotateY(0); 
+    transform: rotateY(0);
 }
 
-.card:hover .cardback{
+.card:hover .cardback {
     background-color: #000000;
 }
 
-.fa{
+.fa {
     font-size: 25px;
     position: relative;
 }
 
-.card-face:hover .fa{
+.card-face:hover .fa {
     font-size: 35px;
-    color: #7FFF00;
+    color: #7fff00;
 }
 
-.dog-card{
+.dog-card {
     height: 120px;
     width: 105px;
     object-fit: cover;
 }
 
 .cardfront {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-color: #000000;
     transform: rotateY(180deg);
 }
 
 .copyright {
     text-align: center;
-    font-family: 'Courier Prime', monospace;
+    font-family: "Courier Prime", monospace;
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-
-@media (max-width: 640px){
-.card {
-    position: relative;
-    height: 65px;
-    width: 50px;
+@media (max-width: 640px) {
+    .card {
+        position: relative;
+        height: 65px;
+        width: 50px;
     }
-.cardgame-info-container {
-    flex-direction: column;
-    align-items: center;
-  }
-.fa{
-    font-size: 15px;
-    position: relative;
-}
-.card-face:hover .fa{
-    font-size: 25px;
-    color: #7FFF00;
-}
-.dog-card{
-    height: 65px;
-    width: 50px;
-    object-fit: cover;
-}
+    .cardgame-info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .fa {
+        font-size: 15px;
+        position: relative;
+    }
+    .card-face:hover .fa {
+        font-size: 25px;
+        color: #7fff00;
+    }
+    .dog-card {
+        height: 65px;
+        width: 50px;
+        object-fit: cover;
+    }
 }
 
 /* CSS below inspired and taken from Web Dev Simplified You Tube Tutorial https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s)*/
-.gameplay-text{
+.gameplay-text {
     position: fixed;
     top: 0%;
     left: 0%;
     right: 0%;
-    bottom:0%;
+    bottom: 0%;
     display: none;
     justify-content: center;
     align-items: center;
     z-index: 100;
-    color: #7FFF00;
+    color: #7fff00;
 }
 
-.gameplay-text.visible{
+.gameplay-text.visible {
     display: flex;
     animation: game-play-grow 500ms forwards;
     flex-direction: column;
 }
 
-.gameplay-text-small{
+.gameplay-text-small {
     font-size: 20px;
 }
 
-@keyframes game-play-grow{
+@keyframes game-play-grow {
     from {
-        background-color: rgba(0,0,0,0);
+        background-color: rgba(0, 0, 0, 0);
         font-size: 0;
     }
     to {
-        background-color: rgba(0,0,0, 0.8);
+        background-color: rgba(0, 0, 0, 0.8);
         font-size: 25px;
     }
 }
 
-@media(max-width: 320px){
- #meetup{
-     display: none;
+@media (max-width: 320px) {
+    #meetup {
+        display: none;
     }
-.navbar-brand{
+    .navbar-brand {
         font-size: 20px;
     }
 }
 
-@media(max-width: 380px){
- .entry-button{
-     margin-bottom: 10px;
+@media (max-width: 380px) {
+    .entry-button {
+        margin-bottom: 10px;
     }
 }
-
-
-

@@ -230,7 +230,7 @@ background covering the entire page was more in keeping with the design of the g
 
 * [Youtube](https://www.youtube.com/) used as a reference for online HTML, CSS & JavaScript tutorials 
 
-* [Web Formatter](https://webformatter.com/html) used to correctly indent HTML files. 
+* [Web Formatter](https://webformatter.com/html) used to correctly indent files. 
 
 ## Testing 
 
