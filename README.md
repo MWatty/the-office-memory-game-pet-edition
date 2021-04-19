@@ -353,7 +353,24 @@ and used object-fit cover to fix the issues.
 
 * No spacing between the word flips and the flip counter on the game.html page, amended and working much better 
 
-* Amended the icons on the card backs to all be paws as when shuffling the cards the matches were ties and paws making it easier to play.  
+* Amended the icons on the card backs to all be paws as when shuffling the cards the matches were ties and paws making it easier to play. 
+
+#### Overlay Text, Click to Play, Winning & Losing 
+* The overlay features are expected to prompt the user to play and provide information to the user with regard winning and losing. 
+* The overlay features were tested by clicking to play a game, winning a game and losing a game. The overlay features worked as expected. 
+However, it was observed that with the overlays taking over the entire page there was no room for the user to exit the game should they wish to. 
+As part of the user stories the game should be simple to navigate and there should be no entrapment of the user.
+* To resolve this issue the overlays were amended so that the navigation bar is on display and the home button accessible. 
+
+
+* Expected -Feature is expected to do X why the user does Y
+
+
+Testing - Tested the feature by doing Y
+Result - The feature did not respond due to A,B,C
+or
+Result - The feature acted as normal and it did Y
+Fix - I did Z to the code because something was missing
 
 ### Known Bugs 
 
