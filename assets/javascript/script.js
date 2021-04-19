@@ -1,7 +1,5 @@
 "use strict";
 
-//You Tube Tutorial by PortEXE(https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=3042s) was used to assist in the creation of the JavaScript
-
 //Class OfficeAudio is used to assist in the addition of sound effects to the game 
 class OfficeAudio {
     constructor() {
