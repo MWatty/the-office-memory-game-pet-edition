@@ -176,9 +176,9 @@ class TheOffice {
 function ready() {
     const GAMETEXT = Array.from(document.getElementsByClassName("gameplay-text"));
     const CARDS = Array.from(document.getElementsByClassName("card"));
-    const RESET = Array.from(document.getElementsByClassName("resetbutton"));
-    const PAUSE = Array.from(document.getElementsByClassName("pausebutton"));
-    const UNPAUSE = Array.from(document.getElementsByClassName("unpausebutton"));
+    const RESET = document.getElementById("resetButton");
+    const PAUSE = document.getElementById("pauseButton");
+    const UNPAUSE = document.getElementById("unpauseButton");
     const TIME_ALLOWED = 60;
     const GAME = new TheOffice(TIME_ALLOWED, CARDS);
 
@@ -193,22 +193,19 @@ function ready() {
             GAME.flipCards(card);
         });
     });
-    RESET.forEach((resetbutton) => {
-        resetbutton.addEventListener("click", () => {
+    
+    RESET.addEventListener("click", () => {
             GAME.resetGame();
         });
-    });
-    PAUSE.forEach((pausebutton) => {
-        pausebutton.addEventListener("click", () => {
+    
+    PAUSE.addEventListener("click", () => {
             GAME.pauseGame();
         });
-    });
 
-    UNPAUSE.forEach((unpausebutton) => {
-        unpausebutton.addEventListener("click", () => {
+    UNPAUSE.addEventListener("click", () => {
             GAME.unpauseGame();
         });
-    });
+    
 }
 
 //If the HTML page is not loaded put an EventListener on the DOM that says when it is loaded call the ready function
