@@ -436,7 +436,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 * [Marina Ferreira](https://www.youtube.com/watch?v=ZniVgo8U7ek--) You Tube tutorial was used to assist in the creation of the card structure. 
 
 * [Web Dev Simplified](https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s) HTML & CSS tutorial on [You Tube](https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s) was followed and used to assist in the 
-creation of this website. This was greatly modified to fit in with the design of this particular game. 
+creation of this website. This was greatly modified to fit in with the design requirements of this particular game including but not limited to the colour, typography and images. In addition to this
+a landing page, navigation bar and footer were added.
 
 * [PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=3042s) You Tube tutorial was used as the main learning source for the creation of the JavaScript Code within this game. This code was modified 
 to fit the requirements of this game and additional features such as pause, play and reset were added to the game to improve interactivity. 
