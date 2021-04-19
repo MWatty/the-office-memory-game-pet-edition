@@ -1,12 +1,11 @@
 "use strict";
 
-//You Tube Tutorial by PortEXE(https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=3042s) was used to assist in the creation of the JavaScript below
+//You Tube Tutorial by PortEXE(https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=3042s) was used to assist in the creation of the JavaScript
 
-//Addition of cound effects to various points throughout the game
-//This means that variable belongs to that particular object
+//Class OfficeAudio is used to assist in the addition of sound effects to the game 
 class OfficeAudio {
     constructor() {
-        this.flipSound = new Audio("assets/audio/flip.wav");
+        this.flipSound = new Audio("assets/audio/flip.wav");//
         this.matchSound = new Audio("assets/audio/win.wav");
         this.winSound = new Audio("assets/audio/woof.wav");
         this.loseSound = new Audio("assets/audio/lose.wav");
@@ -49,7 +48,8 @@ class TheOffice {
         this.counter.innerText = this.totalClicks; //Resetting counter when starting a new game
     }
 
-    //Create a countdown timer counts down by one second, updates value of timer on HTML page, if time remaining equals zero calls game over function
+    /*Function to start countdown timer, counts down by one second, updates value of timer on HTML page, 
+    if time remaining equals zero calls game over function*/
     startTimer() {
         return setInterval(() => {
             this.timeRemaining--;
@@ -58,48 +58,50 @@ class TheOffice {
         }, 1000);
     }
 
-    //Create a function to pause the game
+    //Function to pause the countdown timer, cards cannot be flipped whilst paused 
     pauseGame() {
         this.busy = true;
-        clearInterval(this.timer);
+        clearInterval(this.timer);//
     }
 
-    //Create a funciton to play the game after pausing
+    //Function to play the game after pausing, allows cards to be flipped and the timer to be restarted 
     unpauseGame() {
         this.busy = false;
         clearInterval(this.timer);
         this.timer = this.startTimer();
     }
 
-    //Create a function to reset the game
+    //Function to stop current game and start a new game
     resetGame() {
         clearInterval(this.timer);
         this.startGame();
     }
 
-    //Timer is cleared, plays audio, gameover text pops up
+    /*Function to signal the end of the game, the countdown is cleared,  gameover audio plays and 
+     gameover text pops up*/
     gameOver() {
         clearInterval(this.timer);
         this.OfficeAudio.lose();
         document.getElementById("game-over-text").classList.add("visible");
     }
 
-    //Stops counting down, plays audio, winning text pops up
+    /*Function to signal winning the game, the countdown is cleared, winning audio plays and 
+     winning text pops up*/
     winner() {
         clearInterval(this.timer);
         this.OfficeAudio.win();
         document.getElementById("winner-text").classList.add("visible");
     }
 
-    //Loops through cards array and removes visible class
+    //Function loops through cards array and removes visible class
     turnCardBack() {
         this.cardArray.forEach((card) => {
             card.classList.remove("visible");
         });
     }
 
-    //If user can flips the card, adds sound, iterates flips, updates value of counter,flips card
-    //If statement then checks are we trying to match a card or flipping for first time
+    /*Function if the user can flip the card, adds audio, iterates flips, updates value of counter,flips card.
+    If else statement then checks are we trying to match a card or flipping for first time*/
     flipCards(card) {
         if (this.canflipCards(card)) {
             this.OfficeAudio.flip();
@@ -115,8 +117,8 @@ class TheOffice {
         }
     }
 
-    //If the card we clicked equals the whatcard type then we have a match
-    //Match or no match the value has to be null
+    /*Function if the card clicked equals the whatcard type then there is a match
+    Match or no match the value has to be null*/
     areCardsMatched(card) {
         if (this.whatTypeCard(card) === this.whatTypeCard(this.cardsToCheck)) {
             this.cardsMatched(card, this.cardsToCheck);
@@ -127,7 +129,9 @@ class TheOffice {
         }
     }
 
-    //Pushes both cards to matched cards array and checks if there is a match
+    /*Function pushes both cards to matched cards array and checks if there is a match,
+    audio is played if there is a match and if all of the pairs are matched winner funciton
+    is called*/
     cardsMatched(card1, card2) {
         this.matchedCard.push(card1);
         this.matchedCard.push(card2);
@@ -137,8 +141,8 @@ class TheOffice {
         }
     }
 
-    //Two cards that do not match are flipped back over
-    //One second allowed to view cards then registers as not busy flips back
+    /*Function to flip two cards that do not match back over,
+    one second allowed to view cards then registers as not busy flips back*/
     cardsNoMatch(card1, card2) {
         this.busy = true;
         setTimeout(() => {
@@ -148,7 +152,8 @@ class TheOffice {
         }, 1000);
     }
 
-    //Fisher Yates shuffle algorothim used to shuffle cards https://medium.com/@oldwestaction/randomness-is-hard-e085decbcbb2
+    /*Function shuffle cards  Fisher Yates shuffle algorothim used 
+    https://medium.com/@oldwestaction/randomness-is-hard-e085decbcbb2*/
     shuffleCards() {
         for (let i = this.cardArray.length - 1; i > 0; i--) {
             let randomInt = Math.floor(Math.random() * (i + 1));
@@ -157,22 +162,23 @@ class TheOffice {
         }
     }
 
-    //Returning the card value and the source attribute
+    //Function returns the card value and the source attribute
     whatTypeCard(card) {
         return card.getElementsByClassName("dog-card")[0].src;
     }
 
-    //Scenarios whereby user cannot flip a card, game busy, clicking on a card that is already matched, clicking on card that is already flipped waiting card to check
-    //Creates a boolean, if all 3 values are false this will return true
-    //If this returns true user can flip the card
+    /*Function identifies times whereby a user cannot flip a card, game busy, clicking on a card
+    that is already matched, clicking on card that is already flipped waiting card to check.
+    Creates a boolean, if all 3 values are false this will return true.If this returns true user 
+    can flip the card*/
     canflipCards(card) {
         return !this.busy && !this.matchedCard.includes(card) && card !== this.cardsToCheck;
     }
 }
 
-//This function initialises the programme
-//Creates an array of the HTML elements
-//Then loops over the array and adds click event listeners
+/*This function initialises the programme, creates an array of the HTML elements using cards and gametext.
+Then loops over the array and adds click event listeners. This also adds event listeners for clicking of the pause,
+play and reset buttons*/
 function ready() {
     const GAMETEXT = Array.from(document.getElementsByClassName("gameplay-text"));
     const CARDS = Array.from(document.getElementsByClassName("card"));
@@ -207,8 +213,8 @@ function ready() {
     });
 }
 
-//If the HTML page is not loaded put an EventListener on the DOM that says when it is loaded call the ready function
-//Or else if it is loaded it will call the ready function
+/*If the HTML page is not loaded puts an EventListener on the DOM that says when it is loaded call the ready function
+or else if it is loaded it will call the ready function*/
 if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", ready());
 } else {
