@@ -241,9 +241,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - [Results](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSCSSValidation.png "Results")
 
 JShint was used to detect errors and potential problems within the Javascript Code. The only issues identified in JShint as per 
-the results below related to the use of 'class',let' and the 'arrow function' which are only available in ES6, this is not a cause for concern. 
+the results below related to the use of 'class',let', 'const' and the 'arrow function' which are only available in ES6, this is not a cause for concern. 
 
-* [JShint](https://jshint.com/) - [Results](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSJShint.png "Results")
+* [JShint](https://jshint.com/) - [Results Screenshot 1](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSJShint1.png "Results Screenshot 1")
+, [Results Screenshot 2](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSJShint2.png "Results Screenshot 2") &
+[Results Screenshot 3](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSJShint3.png "Results Screenshot 3")
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -371,9 +373,6 @@ Result - The feature did not respond due to A,B,C
 or
 Result - The feature acted as normal and it did Y
 Fix - I did Z to the code because something was missing
-
-### Known Bugs 
-
 
 ## Deployment 
 
