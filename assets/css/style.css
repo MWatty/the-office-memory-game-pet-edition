@@ -4,7 +4,7 @@
 }
 
 body, html {
-    height: 100%;
+    height: 100vh;
     cursor: pointer;
 }
 
@@ -35,7 +35,7 @@ body {
     background-image: url("../images/officeback.jpg"); 
     filter: blur(8px);
     -webkit-filter: blur(8px);
-    height: 100%;
+    height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
