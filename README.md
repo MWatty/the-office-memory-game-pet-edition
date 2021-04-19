@@ -230,6 +230,8 @@ background covering the entire page was more in keeping with the design of the g
 
 * [Youtube](https://www.youtube.com/) used as a reference for online HTML, CSS & JavaScript tutorials 
 
+* [Web Formatter](https://webformatter.com/html) used to correctly indent HTML files. 
+
 ## Testing 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. 
