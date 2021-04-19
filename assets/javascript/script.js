@@ -40,7 +40,7 @@ class TheOffice {
         this.totalClicks = 0; //Each time a new game is started flip counter is equal to 0
         this.timeRemaining = this.totalTime; //Time resets each time a new game is started
         this.matchedCard = []; //All the matched cards we get whilst playing go into this array, check against cardArray for victory
-        this.busy = true; //Is there a scenario occuring whereby the game is busy 
+        this.busy = true; //Is there a scenario occuring whereby the game is busy
         this.shuffleCards();
         this.timer = this.startTimer();
         this.busy = false;
@@ -93,8 +93,8 @@ class TheOffice {
 
     //Loops through cards array and removes visible class
     turnCardBack() {
-        this.cardArray.forEach((maura) => {
-            maura.classList.remove("visible");
+        this.cardArray.forEach((card) => {
+            card.classList.remove("visible");
         });
     }
 
@@ -170,7 +170,7 @@ class TheOffice {
     }
 }
 
-// This function initialises the programme
+//This function initialises the programme
 //Creates an array of the HTML elements
 //Then loops over the array and adds click event listeners
 function ready() {
@@ -193,19 +193,18 @@ function ready() {
             GAME.flipCards(card);
         });
     });
-    
+
     RESET.addEventListener("click", () => {
-            GAME.resetGame();
-        });
-    
+        GAME.resetGame();
+    });
+
     PAUSE.addEventListener("click", () => {
-            GAME.pauseGame();
-        });
+        GAME.pauseGame();
+    });
 
     UNPAUSE.addEventListener("click", () => {
-            GAME.unpauseGame();
-        });
-    
+        GAME.unpauseGame();
+    });
 }
 
 //If the HTML page is not loaded put an EventListener on the DOM that says when it is loaded call the ready function
