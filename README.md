@@ -1,5 +1,9 @@
 # THE OFFICE MEMORY GAME PET EDITION 
 
+Milestone Project 2 - Interactive Frontend - Code Institute 
+
+![MS2 The Office Memory Game](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/Mockup.png "MS2 The Office Memory Game")
+
 - [THE OFFICE MEMORY GAME PET EDITION](#the-office-memory-game-pet-edition)
   * [Demo](#demo)
   * [UX](#ux)
@@ -65,15 +69,6 @@
     + [Other](#other)
     + [Acknowledgements](#acknowledgements)
 
-
-Milestone Project 2 - Interactive Frontend - Code Institute 
-
-![MS2 The Office Memory Game](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/Mockup.png "MS2 The Office Memory Game")
-
-The Office Memory Game - Pet Edition is a memory game website. It's a traditional card flipping 
-memory game. The game will appeal to all age groups and animal lovers alike. It's simple and fun with 
-a dollop of competition. 
-
 ## Demo 
 
 A live demo can be found [here](https://mwatty.github.io/the-office-memory-game-pet-edition/)
@@ -81,6 +76,10 @@ A live demo can be found [here](https://mwatty.github.io/the-office-memory-game-
 ## UX 
 
 ### Strategy 
+
+The Office Memory Game - Pet Edition is a memory game website. It's a traditional card flipping 
+memory game. The game will appeal to all age groups and animal lovers alike. It's simple and fun with 
+a dollop of competition. 
 
 This website is for people of all ages and abilities, that are looking for a simple, free, easy to 
 understand and easy to navigate game that tests your memory skills. This is going to be achieved by 
