@@ -5,7 +5,7 @@ Milestone Project 2 - Interactive Frontend - Code Institute
 ![MS2 The Office Memory Game](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/Mockup.png "MS2 The Office Memory Game")
 
 The Office Memory Game - Pet Edition is a memory game website. It's a traditional card flipping 
-memory game. The game will appeal to all age group and animal lovers alike. It's simple and fun with 
+memory game. The game will appeal to all age groups and animal lovers alike. It's simple and fun with 
 a dollop of competition. 
 
 ## Demo 
@@ -18,12 +18,12 @@ A live demo can be found [here](https://mwatty.github.io/the-office-memory-game-
 
 This website is for people of all ages and abilities, that are looking for a simple, free, easy to 
 understand and easy to navigate game that tests your memory skills. This is going to be achieved by 
-having a simple, minamilist layout and clear instructions on how to play. Visitors will want to come back 
+having a simple, minimalist layout and clear instructions on how to play. Visitors will want to come back 
 time and time again to test their skills and assess how their improvements. 
 
 ### User Stories 
 
-#### Vistor Goals 
+#### Visitor Goals 
 
 * As a visitor, I want to understand the main purpose of the site. 
 * As a visitor, I want the site to be simple to navigate.
@@ -31,7 +31,6 @@ time and time again to test their skills and assess how their improvements.
 * As a visitor, I want to be able to play this game on all devices without impacting on quality.
 * As a visitor, I want the site to be visually appealing.
 * As a visitor, I want to have fun and have a sense of competition. 
-
 
 #### Site owner goals
 
@@ -49,14 +48,14 @@ grips with how to play the game.
 
 ### Structure 
 
-* In order to meet the expection of "The Office Memory Game - Pet Edition" users the website aims to stick to convention 
-in it's layout and architecture.
+* In order to meet the expectation of "The Office Memory Game - Pet Edition" users the website aims to stick to convention 
+in its layout and architecture.
 
 * The website consists of 2 pages a landing page and a game page. There is a header section on each page, with a "The Office" 
 heading. Clicking on this heading will take the user back to the landing page of the website and this is, as mentioned above, 
 an expected and understood convention. 
 
-* There is a large modal with hightlighted buttons on the landing page, encouraging the user to understand and play the game. 
+* There is a large modal with highlighted buttons on the landing page, encouraging the user to understand and play the game. 
 
 * All elements of the website are easily discoverable and aim to ensure that the user can get to their desired destination within 
 3 clicks. 
@@ -65,17 +64,17 @@ an expected and understood convention.
 go directly to the game and play in a couple of clicks. 
 
 * The website is interactive and provides lots of feedback to the user. This is evident in the use of the buttons on the landing page and 
-of course in the game itself with fetures including flip count, timer, sounds and scores. 
+of course, in the game itself with features including flip count, timer, sounds and scores. 
 
 * The architecture of this website has been carefully considered with the user in mind and allows for ease of movement through the content. 
 
-* Information on this section has been inspired by the informaiton on [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment)
+* Information on this section has been inspired by the information on [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopment)
 
 ### Skeleton 
 
 All wireframes were created using [Balsamiq](http://balsamiq.com)
 
-Please find full PDF versions of wireframes and sketches below :
+Please find full PDF versions of wireframes and sketches below:
 
 * [Mobile Wireframe](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/wireframes/Wireframe%20-%20Mobile.pdf)
 * [Tablet Wireframe](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/wireframes/Wireframe%20-%20Tablet.pdf)
@@ -85,19 +84,19 @@ Please find full PDF versions of wireframes and sketches below :
 
 #### Design 
 
-* The overall desing of the website is fun and simple. The site owner wants the user to simply navigate and 
+* The overall design of the website is fun and simple. The site owner wants the user to simply navigate and 
 understand what is on offer without being inundated with information. Clear text and imagery are used to achieve this. 
 
 #### Colour 
 
-* A palette of Blacks, Greys and Whites are used with a pop of neon color in parts. The use of such colours is to reflect 
-the theme of an office based environment. 
+* A palette of Blacks, Greys and Whites are used with a pop of neon colour in parts. The use of such colours is to reflect 
+the theme of an office-based environment. 
 
 * When choosing the colours the [Colour Picker Tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool) was used to assist.
 
 #### Typography
 
-* Courier Prime was chose as this is a font typically associated with an office environment and marries well with the 
+* Courier Prime was chosen as this is a font typically associated with an office environment and marries well with the 
 theme of "the office". This was chosen using [google fonts](https://fonts.google.com/)
 
 * font-family: 'Courier Prime', monospace;
@@ -105,7 +104,7 @@ theme of "the office". This was chosen using [google fonts](https://fonts.google
 #### Images 
 
 * All images used throughout the website have been carefully chosen to ensure the theme of the game is maintained throughout. 
-Of course for the game itself the images are of pets and these pets add a fun element to the game, hoping to spark joy
+Of course, for the game itself the images are of pets and these pets add a fun element to the game, hoping to spark joy
 in the user experience. The aim of the image use in the game was fun. 
 
 #### Final Project Variations 
@@ -116,16 +115,16 @@ in the user experience. The aim of the image use in the game was fun.
 * However, these were removed from the website as deemed unnecessary, given there was a highlighted 'new game!' 
 button in place to attract the user, duplication of this could be construed as confusing to the user. 
 * The contact tab was also deemed unnecessary for the website and was removed. These changes have ensured that the user stories 
-are met in that there is simple navigationand clarity throughout. 
+are met in that there is simple navigation and clarity throughout. 
 
 ##### Footer
-* The footer was also paired back and kept very simplisitc. 
-* The return to top was not required as there was not need to scroll far enough down the page to warrant a return to top button. 
-* The links and social media links were deemed unnecessary for this particular game given the simple nature of the website. 
+* The footer was also paired back and kept very simplistic. 
+* The return to top was not required as there was not a need to scroll far enough down the page to warrant a return to top button. 
+* The links and social media links were deemed unnecessary for this game given the simple nature of the website. 
 
 ##### How to Play Modal 
-* An additioanl 'new game!' button was added in to this to ensure ease of navigation fot the user. Without this feature the three 
-clicks to the desired destination may not have been possible. This may have created a undue burden on the user in terms of navigation.
+* An additional 'new game!' button was added into this to ensure ease of navigation for the user. Without this feature the three 
+clicks to the desired destination may not have been possible. This may have created an undue burden on the user in terms of navigation.
 
 ##### Click to Play 
 * A click to play pop up was added to enhance the user experience, rather than go to 'new game!' and click on a card to start. 
@@ -137,7 +136,7 @@ the scenario before the timer begins.
 exit the game. This seemed over burdensome on the user, when the home button is a well understood convention. 
 
 ##### Max Flips 
-* The max flips was replaced with a flip counter that counnts up to as many flips as the user needs within the minute provided. 
+* The max flips were replaced with a flip counter that counts up to as many flips as the user needs within the minute provided. 
 Having a timer and limit on the number of flips was decided to be unnecessary and a decision was made that a race against the clock 
 was more appropriate for this game. 
 
@@ -149,22 +148,21 @@ distracting and over styled look to the page.
 * The information provided within this was initially supposed to be within a square however it was decided that a blurred black 
 background covering the entire page was more in keeping with the design of the game. 
 
-
 ## Features 
 
 ### Existing Features 
 
-* This website is reposnsive on all devices 
+* This website is responsive on all devices 
 
-* There are interactive elements throuhgout the website 
+* There are interactive elements throughout the website 
 
 * The website is categorised into two pages, a landing page and a game page. 
 
 #### Landing Page
 
-* Navigation bar as expected located across the top of teh page, this acts as the Home button. 
+* Navigation bar as expected located across the top of the page, this acts as the Home button. 
 * Central banner with a brief description of what the website is about, this also contains two buttons. 
-* Button one 'how to play!' when clicked gives the user simple instruciton on how to play the game and from here hte user can click to play. 
+* Button one 'how to play!' when clicked gives the user simple instruction on how to play the game and from here the user can click to play. 
 * Button two 'new game!' takes the user to the 'click to play' game page where they can start their game. 
 * The footer is a simple with containing copyright information. 
 
@@ -172,16 +170,15 @@ background covering the entire page was more in keeping with the design of the g
 * This page consists of the navigation bar as above with 'the office' acting as a home button. 
 * There is a countdown timer counting down in 1 second intervals for 60 seconds or until the game is won. 
 * There is a flip counter that iterates up by 1 as the user clicks or until the time runs out. 
-* There are 16 cards that can be flipped and the aim is to match all the cards in pairs in as little time as possible. 
+* There are 16 cards that can be flipped, and the aim is to match all the cards in pairs in as little time as possible. 
 * Should the player run out of time the game ends with a game over modal and the option of playing again. 
 * Should the player win a winning modal pops up, again with the option of playing again. 
 
-
 ### Features left to implement 
 
-* Levels - varying levels of difficulty would be addded to the game to enhance the user experience. 
+* Levels - varying levels of difficulty would be added to the game to enhance the user experience. 
 
-* Leaderboard - a leaderbord would be added to enhance the competitiveness of the game and allow for a more enhanced interactive user experience. 
+* Leaderboard - a leaderboard would be added to enhance the competitiveness of the game and allow for a more enhanced interactive user experience. 
 
 ## Technologies Used 
 
@@ -240,7 +237,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
  & [Results with no errors](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSHTMLval.png "Results with no errors")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - [Results](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSCSSValidation.png "Results")
 
-JShint was used to detect errors and potential problems within the Javascript Code. The only issues identified in JShint as per 
+JShint was used to detect errors and potential problems within the JavaScript Code. The only issues identified in JShint as per 
 the results below related to the use of 'class',let', 'const' and the 'arrow function' which are only available in ES6, this is not a cause for concern. 
 
 * [JShint](https://jshint.com/) - [Results Screenshot 1](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSJShint1.png "Results Screenshot 1")
@@ -255,7 +252,7 @@ the results below related to the use of 'class',let', 'const' and the 'arrow fun
 
     1. Upon entering the site, users are greeted by a large banner that explains simply what this website is about, a memory game.  
     2. The user has two options, click either the how to play button or the new game button, again highlighting what the website is about, a game. 
-    3. In a simple click the user may access the how to play button and learn exactly how to plat the game. 
+    3. In a simple click the user may access the how to play button and learn exactly how to play the game. 
 
 ![Landing Page](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/sshomepage.png "Landing Page")
 
@@ -276,16 +273,16 @@ the results below related to the use of 'class',let', 'const' and the 'arrow fun
 
 4. As Visitor, I want to be able to play this game on all devices without impacting on quality.
 
-    1. The website has been tested on a number of devices and works well on both smaller and largers screens.  
+    1. The website has been tested on a number of devices and works well on both smaller and larger screens.  
     2. The quality of the game is not impacted dependant on the device used. 
 
 ![Responsiveness](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSiphone678.png "Responsiveness")
 
 5. As Visitor, I want the site to be visually appealing.
 
-    1. Upon entering the site, the user is greeted with a simple minimlaist landing page, with highlighted secitons to draw their eye. 
-    2. The font used throughout is consistent and asthetically pleasing, there is also limited font to keep the user engaged. 
-    3. The colour scheme is consistent adn ensures there is a flow to the game. 
+    1. Upon entering the site, the user is greeted with a simple minimalist landing page, with highlighted sections to draw their eye. 
+    2. The font used throughout is consistent and aesthetically pleasing, there is also limited font to keep the user engaged. 
+    3. The colour scheme is consistent and ensures there is a flow to the game. 
 
 ![Card Game](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SScardgame.png "Card Game")
 
@@ -301,22 +298,22 @@ the results below related to the use of 'class',let', 'const' and the 'arrow fun
 
 1. As a site owner, I want this site to be responsive so that visitors can play the game on all devices. 
 
-    1. This website is reposnsive on all devices and game quality is not impacted depandant on the device used. 
+    1. This website is responsive on all devices and game quality is not impacted dependant on the device used. 
 
 ![Responsive Moto](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSresponsemoto%202.png "Responsive Moto")
 
 2.  As a site owner, I want visitors to find this site visually appealing. 
 
-    1. Upon entering the site, the user is greeted with a simple minimlaist landing page, with highlighted secitons to draw their eye. 
-    2. The font used throughout is consistent and asthetically pleasing, there is also limited font to keep the user engaged. 
-    3. The colour scheme is consistent adn ensures there is a flow to the game.  
+    1. Upon entering the site, the user is greeted with a simple minimalist landing page, with highlighted sections to draw their eye. 
+    2. The font used throughout is consistent and aesthetically pleasing, there is also limited font to keep the user engaged. 
+    3. The colour scheme is consistent and ensures there is a flow to the game.  
 
 ![Landing Page](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/sshomepage.png "Landing Page")
 
 3. As a site owner, I want visitors to enjoy the game and have fun.
 
     1. The images used within the game section should provide an element of fun. (a dog in a bow tie)
-    2. The sounds effects used throuhgout should also provide a sense of fun and excitement for ther user. 
+    2. The sounds effects used throughout should also provide a sense of fun and excitement for the user. 
     3. The colours have been carefully chosen to ensure the game is kept light, using lowercase and pops of neon. 
 
 ![Card Game Images](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SScardsturned.png "Card Game Images")
@@ -325,23 +322,23 @@ the results below related to the use of 'class',let', 'const' and the 'arrow fun
 
     1. With the aim of the game being trying to beat the clock this should have the desired impact of creating a sense of competition.  
     2. The more seasoned user as well as trying to beat the clock can also aim to reduce their flip count. 
-    3. The sounds effect also have a knock on impact of heightened competitiveness, no one wants to hear the losing sound. 
+    3. The sounds effect also have a knock-on impact of heightened competitiveness, no one wants to hear the losing sound. 
 
 ![You Win](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSyouwon.png "You Win")
     
    
 ### Further Testing
 
-* The Website was tested on Google Chrome ,Firefox, Internet Explorer, Opera Microsoft Edge and Safari browsers.
+* The Website was tested on Google Chrome, Firefox, Internet Explorer, Opera Microsoft Edge and Safari browsers.
 * A large amount of testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 #### Devices 
 
-Tested the game funcitonality on the devices listed below: 
+Tested the game functionality on the devices listed below: 
 
 * Mac Book Pro 
-* Iphone 11 
+* iPhone 11 
 * Honor 10 
 * Desktop 
 
@@ -355,7 +352,7 @@ and used object-fit cover to fix the issues.
 
 * No spacing between the word flips and the flip counter on the game.html page, amended and working much better 
 
-* Amended the icons on the card backs to all be paws as when shuffling the cards the matches were ties and paws making it easier to play. 
+* Amended the icons on the card backs to all be paws as when shuffling the cards, the matches were ties and paws making it easier to play. 
 
 #### Overlay Text, Click to Play, Winning & Losing 
 * The overlay features are expected to prompt the user to play and provide information to the user with regard winning and losing. 
@@ -364,9 +361,7 @@ However, it was observed that with the overlays taking over the entire page ther
 As part of the user stories the game should be simple to navigate and there should be no entrapment of the user.
 * To resolve this issue the overlays were amended so that the navigation bar is on display and the home button accessible. 
 
-
-* Expected -Feature is expected to do X why the user does Y
-
+* Expected -Feature is expected to do X because the user does Y
 
 Testing - Tested the feature by doing Y
 Result - The feature did not respond due to A,B,C
@@ -436,13 +431,13 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 * [Marina Ferreira](https://www.youtube.com/watch?v=ZniVgo8U7ek--) You Tube tutorial was used to assist in the creation of the card structure. 
 
 * [Web Dev Simplified](https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s) HTML & CSS tutorial on [You Tube](https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s) was followed and used to assist in the 
-creation of this website. This was greatly modified to fit in with the design requirements of this particular game including but not limited to the colour, typography and images. In addition to this
+creation of this website. This was greatly modified to fit in with the design requirements of this game including but not limited to the colour, typography and images. In addition to this
 a landing page, navigation bar and footer were added.
 
 * [PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=3042s) You Tube tutorial was used as the main learning source for the creation of the JavaScript Code within this game. This code was modified 
 to fit the requirements of this game and additional features such as pause, play and reset were added to the game to improve interactivity. 
 
-* This [Wikepedia](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) page was used to understand the Fisher Yates algorothim. 
+* This [Wikepedia](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) page was used to understand the Fisher Yates algorithm. 
 
 * [anh-thu huynh](https://medium.com/@oldwestaction/randomness-is-hard-e085decbcbb2) blog post was used to assist in the understanding and coding of the shuffle function. 
 
@@ -484,3 +479,4 @@ to fit the requirements of this game and additional features such as pause, play
 * Thank you to the Code Institute Slack Community for their tips and assistance throughout the course of creating this game. 
 
 * A big thank you to my mentor Sandeep Aggarwal for his help throughout this project. 
+
