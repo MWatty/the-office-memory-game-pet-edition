@@ -330,7 +330,7 @@ the results below related to the use of 'class',let', 'const' and the 'arrow fun
    
 ### Further Testing
 
-* The Website was tested on Google Chrome, Firefox, Internet Explorer, Opera Microsoft Edge and Safari browsers.
+* The Website was tested on Google Chrome, Firefox, Opera Microsoft Edge and Safari browsers.
 * A large amount of testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
