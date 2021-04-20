@@ -148,6 +148,9 @@ distracting and over styled look to the page.
 * The information provided within this was initially supposed to be within a square however it was decided that a blurred black 
 background covering the entire page with the exception of the navigation bar was more in keeping with the design of the game. 
 
+##### Pause, Play and Reset
+* Pause, Play and Reset buttons were added to the game to allow for a more interactive user experience. 
+
 ## Features 
 
 ### Existing Features 
