@@ -65,8 +65,6 @@
     + [Other](#other)
     + [Acknowledgements](#acknowledgements)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 Milestone Project 2 - Interactive Frontend - Code Institute 
 
