@@ -146,15 +146,15 @@ distracting and over styled look to the page.
 
 ##### You Win, You Lose Pop Up 
 * The information provided within this was initially supposed to be within a square however it was decided that a blurred black 
-background covering the entire page was more in keeping with the design of the game. 
+background covering the entire page with the exception of the navigation bar was more in keeping with the design of the game. 
 
 ## Features 
 
 ### Existing Features 
 
-* This website is responsive on all devices 
+* This website is responsive on all devices.
 
-* There are interactive elements throughout the website 
+* There are interactive elements throughout the website.
 
 * The website is categorised into two pages, a landing page and a game page. 
 
@@ -162,17 +162,18 @@ background covering the entire page was more in keeping with the design of the g
 
 * Navigation bar as expected located across the top of the page, this acts as the Home button. 
 * Central banner with a brief description of what the website is about, this also contains two buttons. 
-* Button one 'how to play!' when clicked gives the user simple instruction on how to play the game and from here the user can click to play. 
+* Button one 'how to play!' when clicked gives the user simple instructions on how to play the game and from here the user can click to play. 
 * Button two 'new game!' takes the user to the 'click to play' game page where they can start their game. 
-* The footer is a simple with containing copyright information. 
+* The footer is a simple containing copyright information only. 
 
 #### Game Page 
 * This page consists of the navigation bar as above with 'the office' acting as a home button. 
-* There is a countdown timer counting down in 1 second intervals for 60 seconds or until the game is won. 
+* There is a countdown timer, counting down in 1 second intervals for 60 seconds or until the game is won. 
 * There is a flip counter that iterates up by 1 as the user clicks or until the time runs out. 
 * There are 16 cards that can be flipped, and the aim is to match all the cards in pairs in as little time as possible. 
 * Should the player run out of time the game ends with a game over modal and the option of playing again. 
 * Should the player win a winning modal pops up, again with the option of playing again. 
+* There are also 3 buttons that allow the user to pause, play and reset the game. 
 
 ### Features left to implement 
 
@@ -342,17 +343,29 @@ Tested the game functionality on the devices listed below:
 * Honor 10 
 * Desktop 
 
+#### Issues identified during testing 
+
+##### Images 
+* During testing it was observed that the images of the dogs were loading slower than expected. 
+* To increase the performance of images I reduced the resolution and compressed them using tinyPNG.
+* The images load as expected now. 
+
+##### Card Back Icons 
+* Paw and Black Tie icons were used on the card backs as a design feature. 
+* During testing it was noted that all matches were a tie and a paw. 
+* The tie image was removed and replaced with paws only, this removed the issue identified above. 
+
 ### Features Tested 
 
-* Issues identified on the landing page on some of the smallest devices, box with buttons 
-overlapping on the navigation bar. Media Query created for devices max width 320px and 380px.
+#### Navigation Bar / Home Button 
+* "the office" acts as the home button and should take the game page to the home page. 
+* This feature was tested and worked as expected 
 
-* Photographs of some of the dogs on cards when tested were stretched, used researched 
-and used object-fit cover to fix the issues. 
-
-* No spacing between the word flips and the flip counter on the game.html page, amended and working much better 
-
-* Amended the icons on the card backs to all be paws as when shuffling the cards, the matches were ties and paws making it easier to play. 
+#### How to Play Button / New Game 
+* Clicking on the "how to play!" button should cause a modal to appear with basic instructions, this should then give the user 
+the opportunity to play a "new game" or close the modal. 
+* Clicking on the either of teh new "new game!" buttons should take the user to the "click to play" screen
+* All buttons were tested and worked as expected. 
 
 #### Overlay Text, Click to Play, Winning & Losing 
 * The overlay features are expected to prompt the user to play and provide information to the user with regard winning and losing. 
@@ -361,13 +374,34 @@ However, it was observed that with the overlays taking over the entire page ther
 As part of the user stories the game should be simple to navigate and there should be no entrapment of the user.
 * To resolve this issue the overlays were amended so that the navigation bar is on display and the home button accessible. 
 
-* Expected -Feature is expected to do X because the user does Y
+#### Card Game Cards
+* As per the instructions it was expected that game should function as follows, users clicks on a card, this card has an image of a dog, 
+user clicks on a second card this also has an image of a dog, if cards matched the images of the dogs stay, if not they flip back over. 
+The user has to match all cards to win the game. 
+* The expectation of the game is that the user cannot click on cards in certain circumstances including when a card is already flipped, when the game is paused and 
+when checking for a match. 
+* The game was tested on various devices and works as expected. 
 
-Testing - Tested the feature by doing Y
-Result - The feature did not respond due to A,B,C
-or
-Result - The feature acted as normal and it did Y
-Fix - I did Z to the code because something was missing
+#### Card Game Timer 
+* The timer is expected to count down in 1 second intervals from 60. 
+* The timer works as expected. 
+
+#### Card Game Flips 
+* The flip counter is expected to increase by 1 everytime a user clicks a card. 
+* This worked as expected. 
+
+#### Pause Button 
+* The expectation is that the user can click the pause button should they need to. The user should not be able to flip 
+cards whilst paused. 
+* The pause button works as expected. 
+
+#### Play Button 
+* The expectation is that the user can click the play button following pausing of the game. 
+* The play button works as expected. 
+
+#### Reset Button 
+* The expectation is that the reset button resets the timer and starts a new game for the user. 
+* The reset button works as expected. 
 
 ## Deployment 
 
