@@ -1,5 +1,73 @@
 # THE OFFICE MEMORY GAME PET EDITION 
 
+- [THE OFFICE MEMORY GAME PET EDITION](#the-office-memory-game-pet-edition)
+  * [Demo](#demo)
+  * [UX](#ux)
+    + [Strategy](#strategy)
+    + [User Stories](#user-stories)
+      - [Visitor Goals](#visitor-goals)
+      - [Site owner goals](#site-owner-goals)
+    + [Scope](#scope)
+    + [Structure](#structure)
+    + [Skeleton](#skeleton)
+    + [Surface](#surface)
+      - [Design](#design)
+      - [Colour](#colour)
+      - [Typography](#typography)
+      - [Images](#images)
+    + [Final Project Variations](#final-project-variations)
+      - [Navigation Bar](#navigation-bar)
+      - [Footer](#footer)
+      - [How to Play Modal](#how-to-play-modal)
+      - [Click to Play](#click-to-play)
+      - [Exit Game Button](#exit-game-button)
+      - [Max Flips](#max-flips)
+      - [Background Image on the Game Page](#background-image-on-the-game-page)
+      - [You Win, You Lose Pop Up](#you-win--you-lose-pop-up)
+      - [Pause, Play and Reset](#pause--play-and-reset)
+  * [Features](#features)
+    + [Existing Features](#existing-features)
+      - [Landing Page](#landing-page)
+      - [Game Page](#game-page)
+    + [Features left to implement](#features-left-to-implement)
+  * [Technologies Used](#technologies-used)
+    + [Languages](#languages)
+    + [Libraries](#libraries)
+    + [Version Control](#version-control)
+    + [Tools and Other Resources](#tools-and-other-resources)
+  * [Testing](#testing)
+    + [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience--ux--section)
+      - [Visitors](#visitors)
+      - [Site Owner](#site-owner)
+    + [Further Testing](#further-testing)
+      - [Devices](#devices)
+      - [Issues identified during testing](#issues-identified-during-testing)
+        * [Images](#images-1)
+        * [Card Back Icons](#card-back-icons)
+    + [Features Tested](#features-tested)
+      - [Navigation Bar / Home Button](#navigation-bar---home-button)
+      - [How to Play Button / New Game](#how-to-play-button---new-game)
+      - [Overlay Text, Click to Play, Winning & Losing](#overlay-text--click-to-play--winning---losing)
+      - [Card Game Cards](#card-game-cards)
+      - [Card Game Timer](#card-game-timer)
+      - [Card Game Flips](#card-game-flips)
+      - [Pause Button](#pause-button)
+      - [Play Button](#play-button)
+      - [Reset Button](#reset-button)
+  * [Deployment](#deployment)
+    + [Deployed on GitHub Pages using Master Branch](#deployed-on-github-pages-using-master-branch)
+    + [Forking the GitHub Repository](#forking-the-github-repository)
+    + [Cloning Project](#cloning-project)
+  * [Credits](#credits)
+    + [Content](#content)
+    + [Code](#code)
+    + [Media](#media)
+    + [Other](#other)
+    + [Acknowledgements](#acknowledgements)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 Milestone Project 2 - Interactive Frontend - Code Institute 
 
 ![MS2 The Office Memory Game](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/Mockup.png "MS2 The Office Memory Game")
@@ -107,9 +175,9 @@ theme of "the office". This was chosen using [google fonts](https://fonts.google
 Of course, for the game itself the images are of pets and these pets add a fun element to the game, hoping to spark joy
 in the user experience. The aim of the image use in the game was fun. 
 
-#### Final Project Variations 
+### Final Project Variations 
 
-##### Navigation Bar 
+#### Navigation Bar 
 * The navigation bar was amended from what was originally planned. 
 * As well as the office home button, it was planned there would also be a contact and play tab. 
 * However, these were removed from the website as deemed unnecessary, given there was a highlighted 'new game!' 
@@ -117,38 +185,38 @@ button in place to attract the user, duplication of this could be construed as c
 * The contact tab was also deemed unnecessary for the website and was removed. These changes have ensured that the user stories 
 are met in that there is simple navigation and clarity throughout. 
 
-##### Footer
+#### Footer
 * The footer was also paired back and kept very simplistic. 
 * The return to top was not required as there was not a need to scroll far enough down the page to warrant a return to top button. 
 * The links and social media links were deemed unnecessary for this game given the simple nature of the website. 
 
-##### How to Play Modal 
+#### How to Play Modal 
 * An additional 'new game!' button was added into this to ensure ease of navigation for the user. Without this feature the three 
 clicks to the desired destination may not have been possible. This may have created an undue burden on the user in terms of navigation.
 
-##### Click to Play 
+#### Click to Play 
 * A click to play pop up was added to enhance the user experience, rather than go to 'new game!' and click on a card to start. 
 The click to play overlay adds an addition interactive element and allows the user a little bit of time to understand and absorb 
 the scenario before the timer begins. 
 
-##### Exit Game Button 
+#### Exit Game Button 
 * The exit game button has not been added as the user can click on the office home button in the navigation bar should they wish to 
 exit the game. This seemed over burdensome on the user, when the home button is a well understood convention. 
 
-##### Max Flips 
+#### Max Flips 
 * The max flips were replaced with a flip counter that counts up to as many flips as the user needs within the minute provided. 
 Having a timer and limit on the number of flips was decided to be unnecessary and a decision was made that a race against the clock 
 was more appropriate for this game. 
 
-##### Background Image on the Game Page 
+#### Background Image on the Game Page 
 * Given the images on both sides of the cards the addition of a background image was not required. This could potentially have created a 
 distracting and over styled look to the page. 
 
-##### You Win, You Lose Pop Up 
+#### You Win, You Lose Pop Up 
 * The information provided within this was initially supposed to be within a square however it was decided that a blurred black 
 background covering the entire page with the exception of the navigation bar was more in keeping with the design of the game. 
 
-##### Pause, Play and Reset
+#### Pause, Play and Reset
 * Pause, Play and Reset buttons were added to the game to allow for a more interactive user experience. 
 
 ## Features 
@@ -508,6 +576,9 @@ to fit the requirements of this game and additional features such as pause, play
 * Photo by <a href="https://unsplash.com/@vittrupfoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Isabel Vittrup-Pallier</a> on <a href="/s/photos/dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 * [MixKit](https://mixkit.co/free-sound-effects/win/) was used to add the sounds effects to this game. 
+
+### Other 
+* <i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ### Acknowledgements 
 
