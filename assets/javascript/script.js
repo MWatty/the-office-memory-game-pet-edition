@@ -128,7 +128,7 @@ class TheOffice {
     }
 
     /*Function pushes both cards to matched cards array and checks if there is a match,
-    audio is played if there is a match and if all of the pairs are matched winner funciton
+    audio is played if there is a match and if all of the pairs are matched winner function
     is called*/
     cardsMatched(card1, card2) {
         this.matchedCard.push(card1);
