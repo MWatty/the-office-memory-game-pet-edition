@@ -78,13 +78,12 @@ A live demo can be found [here](https://mwatty.github.io/the-office-memory-game-
 ### Strategy 
 
 The Office Memory Game - Pet Edition is a memory game website. It's a traditional card flipping 
-memory game. The game will appeal to all age groups and animal lovers alike. It's simple and fun with 
-a dollop of competition. 
+recollection game. It's simple and fun with a dollop of competition. 
 
-This website is for people of all ages and abilities, that are looking for a simple, free, easy to 
-understand and easy to navigate game that tests your memory skills. This is going to be achieved by 
-having a simple, minimalist layout and clear instructions on how to play. Visitors will want to come back 
-time and time again to test their skills and assess how their improvements. 
+This website is for people of all ages and abilities, that are looking for a simple, easy to 
+understand and easy to navigate game that tests your memory skills. This is achieved by 
+having a simple, minimalist layout with clear user instructions on how to play. Visitors will want to come back 
+time and time again to test their skills and to try to beat their previous time.
 
 ### User Stories 
 
@@ -103,24 +102,24 @@ time and time again to test their skills and assess how their improvements.
 * As a site owner, I want visitors to find this site visually appealing.  
 * As a site owner, I want visitors to enjoy the game and have fun. 
 * As a site owner, I want visitors to have a sense of competition when playing with the aim of 
-attracting visitors back to play. 
+attracting visitors back to play again. 
 
 ### Scope
 
 * For users, the site owner wanted to create a website that is simple and inviting with a focus on playing 
-and enjoying the game. The highlighted buttons act to draw the visitor in and quickly understand and get to 
-grips with how to play the game. 
+and enjoying the game. The highlighted buttons act to draw the visitor in and  prompt the user to learn how to play
+or go direct to the game. 
 
 ### Structure 
 
-* In order to meet the expectation of "The Office Memory Game - Pet Edition" users the website aims to stick to convention 
+* In order to meet the expectation of "The Office Memory Game - Pet Edition" users,  the website aims to stick to convention 
 in its layout and architecture.
 
-* The website consists of 2 pages a landing page and a game page. There is a header section on each page, with a "The Office" 
+* The website consists of 2 pages , a landing page and a game page. There is a header section on each page, with a "The Office" 
 heading. Clicking on this heading will take the user back to the landing page of the website and this is, as mentioned above, 
 an expected and understood convention. 
 
-* There is a large modal with highlighted buttons on the landing page, encouraging the user to understand and play the game. 
+* There is a large modal with highlighted buttons on the landing page, helping the user to understand and play the game. 
 
 * All elements of the website are easily discoverable and aim to ensure that the user can get to their desired destination within 
 3 clicks. 
@@ -129,7 +128,7 @@ an expected and understood convention.
 go directly to the game and play in a couple of clicks. 
 
 * The website is interactive and provides lots of feedback to the user. This is evident in the use of the buttons on the landing page and 
-of course, in the game itself with features including flip count, timer, sounds and scores. 
+in the game itself with features including flip count, timer, sounds and scores. 
 
 * The architecture of this website has been carefully considered with the user in mind and allows for ease of movement through the content. 
 
@@ -169,14 +168,14 @@ theme of "the office". This was chosen using [google fonts](https://fonts.google
 #### Images 
 
 * All images used throughout the website have been carefully chosen to ensure the theme of the game is maintained throughout. 
-Of course, for the game itself the images are of pets and these pets add a fun element to the game, hoping to spark joy
+For the game itself the images are of dogs and these dogs add a fun element to the game, hoping to spark joy
 in the user experience. The aim of the image use in the game was fun. 
 
 ### Final Project Variations 
 
 #### Navigation Bar 
 * The navigation bar was amended from what was originally planned. 
-* As well as the office home button, it was planned there would also be a contact and play tab. 
+* As well as The Office home button, it was planned there would also be a contact and play tab. 
 * However, these were removed from the website as deemed unnecessary, given there was a highlighted 'new game!' 
 button in place to attract the user, duplication of this could be construed as confusing to the user. 
 * The contact tab was also deemed unnecessary for the website and was removed. These changes have ensured that the user stories 
@@ -185,32 +184,32 @@ are met in that there is simple navigation and clarity throughout.
 #### Footer
 * The footer was also paired back and kept very simplistic. 
 * The return to top was not required as there was not a need to scroll far enough down the page to warrant a return to top button. 
-* The links and social media links were deemed unnecessary for this game given the simple nature of the website. 
+* The links and social media icon links were deemed unnecessary for this game given the simple nature of the website. 
 
 #### How to Play Modal 
-* An additional 'new game!' button was added into this to ensure ease of navigation for the user. Without this feature the three 
+* An additional 'new game!' button was added to ensure ease of navigation for the user. Without this feature the three 
 clicks to the desired destination may not have been possible. This may have created an undue burden on the user in terms of navigation.
 
 #### Click to Play 
-* A click to play pop up was added to enhance the user experience, rather than go to 'new game!' and click on a card to start. 
-The click to play overlay adds an addition interactive element and allows the user a little bit of time to understand and absorb 
+* A click to play overlay was added to enhance the user experience, and improve the staring procedure, which was supposed to be click on a 
+card to start. The click to play overlay also adds an additional interactive element and allows the user a little bit of time to understand and absorb 
 the scenario before the timer begins. 
 
 #### Exit Game Button 
 * The exit game button has not been added as the user can click on the office home button in the navigation bar should they wish to 
-exit the game. This seemed over burdensome on the user, when the home button is a well understood convention. 
+exit the game. It seemed unnecessary to have an exit button , when the home button is a well understood convention. 
 
 #### Max Flips 
 * The max flips were replaced with a flip counter that counts up to as many flips as the user needs within the minute provided. 
-Having a timer and limit on the number of flips was decided to be unnecessary and a decision was made that a race against the clock 
+Having both a timer and limit on the number of flips was decided to be unnecessary and a decision was made that a race against the clock 
 was more appropriate for this game. 
 
 #### Background Image on the Game Page 
-* Given the images on both sides of the cards the addition of a background image was not required. This could potentially have created a 
+* Given there are images on both sides of the cards the addition of a background image was not required. This could potentially have created a 
 distracting and over styled look to the page. 
 
 #### You Win, You Lose Pop Up 
-* The information provided within this was initially supposed to be within a square however it was decided that a blurred black 
+* The information provided within these pop ups were initially supposed to be within a square however it was decided that a blurred black 
 background covering the entire page with the exception of the navigation bar was more in keeping with the design of the game. 
 
 #### Pause, Play and Reset
@@ -227,20 +226,19 @@ background covering the entire page with the exception of the navigation bar was
 * The website is categorised into two pages, a landing page and a game page. 
 
 #### Landing Page
-
-* Navigation bar as expected located across the top of the page, this acts as the Home button. 
-* Central banner with a brief description of what the website is about, this also contains two buttons. 
+* A navigation bar is,  as expected, located across the top of the page, this acts as the Home button. 
+* A central banner with a brief description of what the website is about, this also contains two buttons. 
 * Button one 'how to play!' when clicked gives the user simple instructions on how to play the game and from here the user can click to play. 
-* Button two 'new game!' takes the user to the 'click to play' game page where they can start their game. 
+* Button two 'new game!' takes the user to the 'click to play' game overlay where they can start their game. 
 * The footer is a simple containing copyright information only. 
 
 #### Game Page 
-* This page consists of the navigation bar as above with 'the office' acting as a home button. 
+* The navigation bar as above with 'the office' acting as a home button. 
 * There is a countdown timer, counting down in 1 second intervals for 60 seconds or until the game is won. 
 * There is a flip counter that iterates up by 1 as the user clicks or until the time runs out. 
 * There are 16 cards that can be flipped, and the aim is to match all the cards in pairs in as little time as possible. 
 * Should the player run out of time the game ends with a game over modal and the option of playing again. 
-* Should the player win a winning modal pops up, again with the option of playing again. 
+* Should the player win, a winning modal pops up, again with the option of playing again. 
 * There are also 3 buttons that allow the user to pause, play and reset the game. 
 
 ### Features left to implement 
@@ -320,7 +318,7 @@ the results below related to the use of 'class',let', 'const' and the 'arrow fun
  1. As Visitor, I want to understand the main purpose of the site. 
 
     1. Upon entering the site, users are greeted by a large banner that explains simply what this website is about, a memory game.  
-    2. The user has two options, click either the how to play button or the new game button, again highlighting what the website is about, a game. 
+    2. The user has two options, click either the ‘how to play button’ or the ‘new game’ button, again highlighting what the website is about, a game. 
     3. In a simple click the user may access the how to play button and learn exactly how to play the game. 
 
 ![Landing Page](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/sshomepage.png "Landing Page")
@@ -328,9 +326,10 @@ the results below related to the use of 'class',let', 'const' and the 'arrow fun
 2. As Visitor, I want the site to be simple to navigate.
 
     1. Upon entering the site, users are greeted with a simple minimalist landing page that meets with expected convention.  
-    2. At the top of each page there is a navigation bar consisting of a simple home button
+    2. At the top of each page there is a navigation bar consisting of logo which is a simple home button
     3. There are two user option in a highlighted button format that steer the user to learn about the game and navigate simply through the game. 
-    4. Once the user clicks new game, there is an additional "Click to Play" again allowing the user to navigate simply and giving time to assess the next step. 
+    4. Once the user clicks ‘new game’, there is an additional ‘Click to Play’
+again allowing the user to navigate simply and giving time to assess the next step. 
 
 ![Click to Play](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSclicktoplay.png "Click to Play")
 
@@ -343,14 +342,14 @@ the results below related to the use of 'class',let', 'const' and the 'arrow fun
 4. As Visitor, I want to be able to play this game on all devices without impacting on quality.
 
     1. The website has been tested on a number of devices and works well on both smaller and larger screens.  
-    2. The quality of the game is not impacted dependant on the device used. 
+    2. The quality of the game is not impacted REGARDLESS OF the device used. 
 
 ![Responsiveness](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SSiphone678.png "Responsiveness")
 
 5. As Visitor, I want the site to be visually appealing.
 
     1. Upon entering the site, the user is greeted with a simple minimalist landing page, with highlighted sections to draw their eye. 
-    2. The font used throughout is consistent and aesthetically pleasing, there is also limited font to keep the user engaged. 
+    2. The font used throughout is consistent and aesthetically pleasing, there is also limited font use to keep the user engaged. 
     3. The colour scheme is consistent and ensures there is a flow to the game. 
 
 ![Card Game](https://github.com/MWatty/the-office-memory-game-pet-edition/blob/master/assets/images/screenshots/SScardgame.png "Card Game")
@@ -409,7 +408,7 @@ Tested the game functionality on the devices listed below:
 * Mac Book Pro 
 * iPhone 11 
 * Honor 10 
-* Desktop 
+* Lenovo Laptop (Windows 10) 
 
 #### Issues identified during testing 
 
@@ -420,19 +419,19 @@ Tested the game functionality on the devices listed below:
 
 ##### Card Back Icons 
 * Paw and Black Tie icons were used on the card backs as a design feature. 
-* During testing it was noted that all matches were a tie and a paw. 
+* During testing it was noted that all the card matches were of a tie and a paw. 
 * The tie image was removed and replaced with paws only, this removed the issue identified above. 
 
 ### Features Tested 
 
 #### Navigation Bar / Home Button 
-* "the office" acts as the home button and should take the game page to the home page. 
+* "the office" acts as the home button and should take the user from the game page to the home page. 
 * This feature was tested and worked as expected 
 
 #### How to Play Button / New Game 
 * Clicking on the "how to play!" button should cause a modal to appear with basic instructions, this should then give the user 
 the opportunity to play a "new game" or close the modal. 
-* Clicking on the either of teh new "new game!" buttons should take the user to the "click to play" screen
+* Clicking on the either of the "new game!" buttons should take the user to the "click to play" screen
 * All buttons were tested and worked as expected. 
 
 #### Overlay Text, Click to Play, Winning & Losing 
@@ -440,12 +439,12 @@ the opportunity to play a "new game" or close the modal.
 * The overlay features were tested by clicking to play a game, winning a game and losing a game. The overlay features worked as expected. 
 However, it was observed that with the overlays taking over the entire page there was no room for the user to exit the game should they wish to. 
 As part of the user stories the game should be simple to navigate and there should be no entrapment of the user.
-* To resolve this issue the overlays were amended so that the navigation bar is on display and the home button accessible. 
+* To resolve this issue the overlays were amended so that the navigation bar is on display and the home button accessible at all times 
 
 #### Card Game Cards
-* As per the instructions it was expected that game should function as follows, users clicks on a card, this card has an image of a dog, 
+* As per the instructions it was expected that game should function as follows; users clicks on a card, this card has an image of a dog, 
 user clicks on a second card this also has an image of a dog, if cards matched the images of the dogs stay, if not they flip back over. 
-The user has to match all cards to win the game. 
+The user must match all cards to win the game. 
 * The expectation of the game is that the user cannot click on cards in certain circumstances including when a card is already flipped, when the game is paused and 
 when checking for a match. 
 * The game was tested on various devices and works as expected. 
@@ -455,20 +454,20 @@ when checking for a match.
 * The timer works as expected. 
 
 #### Card Game Flips 
-* The flip counter is expected to increase by 1 everytime a user clicks a card. 
+* The flip counter is expected to increase by 1 every time a user clicks a card. 
 * This worked as expected. 
 
 #### Pause Button 
-* The expectation is that the user can click the pause button should they need to. The user should not be able to flip 
+* The expectation is that the user can click the pause button to stop the timer should they need to. The user should not be able to flip 
 cards whilst paused. 
 * The pause button works as expected. 
 
 #### Play Button 
-* The expectation is that the user can click the play button following pausing of the game. 
+* The expectation is that the user can click the play button following pausing of the game. And the timer will restart. 
 * The play button works as expected. 
 
 #### Reset Button 
-* The expectation is that the reset button resets the timer and starts a new game for the user. 
+* The expectation is that the reset button resets the timer and flip count and starts a new game for the user. 
 * The reset button works as expected. 
 
 ## Deployment 
@@ -533,7 +532,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 * [Marina Ferreira](https://www.youtube.com/watch?v=ZniVgo8U7ek--) You Tube tutorial was used to assist in the creation of the card structure. 
 
 * [Web Dev Simplified](https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s) HTML & CSS tutorial on [You Tube](https://www.youtube.com/watch?v=28VfzEiJgy4&t=2103s) was followed and used to assist in the 
-creation of this website. This was greatly modified to fit in with the design requirements of this game including but not limited to the colour, typography and images. In addition to this
+creation of this website. This was greatly modified to fit in with the design requirements of this game including, but not limited to, the colour, typography and images. In addition to this
 a landing page, navigation bar and footer were added.
 
 * [PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ&t=3042s) You Tube tutorial was used as the main learning source for the creation of the JavaScript Code within this game. This code was modified 
@@ -584,4 +583,5 @@ to fit the requirements of this game and additional features such as pause, play
 * Thank you to the Code Institute Slack Community for their tips and assistance throughout the course of creating this game. 
 
 * A big thank you to my mentor Sandeep Aggarwal for his help throughout this project. 
+
 
